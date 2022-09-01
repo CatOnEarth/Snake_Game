@@ -1,4 +1,4 @@
 var files_dup =
 [
-    [ "Sbake_SFML", "dir_6c55eedcac6b448c6c3aa8e04d0df7b5.html", "dir_6c55eedcac6b448c6c3aa8e04d0df7b5" ]
+    [ "Snake_SFML", "dir_46001e313c541972f7815eac75444e30.html", "dir_46001e313c541972f7815eac75444e30" ]
 ];

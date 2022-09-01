@@ -6,9 +6,10 @@ var searchData=
   ['settext_3',['setText',['../classform_1_1_label.html#a8daa97ca7616ee795170032f47e73cda',1,'form::Label']]],
   ['size_4',['size',['../classform_1_1_label.html#a1946c01c6e51cc785fc363bd12b46774',1,'form::Label']]],
   ['size_5ftext_5',['size_text',['../classform_1_1_button.html#a872c9775cc007bad2f49de45612778b3',1,'form::Button']]],
-  ['snake_5fplayer_6',['Snake_player',['../class_snake__player.html',1,'']]],
-  ['snake_5fplayer_2ecpp_7',['Snake_player.cpp',['../_snake__player_8cpp.html',1,'']]],
-  ['snake_5fplayer_2eh_8',['Snake_player.h',['../_snake__player_8h.html',1,'']]],
-  ['spawn_5ffood_9',['spawn_food',['../classfood.html#aeaa7cb9e03a8d62d2b099e489f09bfa5',1,'food']]],
-  ['status_10',['status',['../structfield_1_1cell.html#a21eae6bfb8787f2b3ed82b4d7832bfbe',1,'field::cell']]]
+  ['snake_5fgame_6',['Snake_Game',['../md__r_e_a_d_m_e.html',1,'']]],
+  ['snake_5fplayer_7',['Snake_player',['../class_snake__player.html',1,'']]],
+  ['snake_5fplayer_2ecpp_8',['Snake_player.cpp',['../_snake__player_8cpp.html',1,'']]],
+  ['snake_5fplayer_2eh_9',['Snake_player.h',['../_snake__player_8h.html',1,'']]],
+  ['spawn_5ffood_10',['spawn_food',['../classfood.html#aeaa7cb9e03a8d62d2b099e489f09bfa5',1,'food']]],
+  ['status_11',['status',['../structfield_1_1cell.html#a21eae6bfb8787f2b3ed82b4d7832bfbe',1,'field::cell']]]
 ];
