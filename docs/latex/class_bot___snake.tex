@@ -1,0 +1,310 @@
+\hypertarget{class_bot___snake}{}\doxysection{Bot\+\_\+\+Snake Class Reference}
+\label{class_bot___snake}\index{Bot\_Snake@{Bot\_Snake}}
+
+
+{\ttfamily \#include $<$Bot\+\_\+\+Snake.\+h$>$}
+
+
+
+Collaboration diagram for Bot\+\_\+\+Snake\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=213pt]{class_bot___snake__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{struct_bot___snake_1_1cell}{cell}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_bot___snake_a3f9661b5b678ab2aea1678465b6e862d}{draw\+\_\+bot\+\_\+snake}} (sf\+::\+Render\+Window \&window, \mbox{\hyperlink{classfield}{field}} \&\mbox{\hyperlink{classfield}{field}})
+\item 
+void \mbox{\hyperlink{class_bot___snake_ab7e97af03821f641d037d38ddb4161f5}{draw\+\_\+eyes\+\_\+bot\+\_\+snake}} (sf\+::\+Render\+Window \&window, \mbox{\hyperlink{classfield}{field}} \&\mbox{\hyperlink{classfield}{field}})
+\item 
+void \mbox{\hyperlink{class_bot___snake_a5d12e7beff247902f76e7dc622ecec8e}{move\+\_\+bot\+\_\+snake}} (sf\+::\+Render\+Window \&window, \mbox{\hyperlink{classfield}{field}} \&\mbox{\hyperlink{classfield}{field}}, \mbox{\hyperlink{classfood}{food}} \&\mbox{\hyperlink{classfood}{food}}, bool \&\mbox{\hyperlink{_game_8cpp_a35cb308da6d1d5612150c57ae83be757}{Is\+\_\+\+Bot\+\_\+loose}})
+\item 
+void \mbox{\hyperlink{class_bot___snake_a4f5b1aabbd1ea816b8ddc811ca73cb5e}{grow\+\_\+bot\+\_\+snake}} (\mbox{\hyperlink{classfield}{field}} \&\mbox{\hyperlink{classfield}{field}})
+\item 
+bool \mbox{\hyperlink{class_bot___snake_a33f58e5d1b7ece1f9ec1ab648ddbdc0e}{find\+\_\+way}} (\mbox{\hyperlink{classfield}{field}} \&\mbox{\hyperlink{classfield}{field}}, \mbox{\hyperlink{classfood}{food}} \&\mbox{\hyperlink{classfood}{food}})
+\item 
+bool \mbox{\hyperlink{class_bot___snake_acc08dc1059a6ab33307b07cfa84da095}{if\+\_\+no\+\_\+straight\+\_\+way}} (\mbox{\hyperlink{classfield}{field}} \&ff)
+\item 
+void \mbox{\hyperlink{class_bot___snake_a2116e2f11fa7bfeac34966df667714f1}{eat\+\_\+food\+\_\+bot\+\_\+snake}} (\mbox{\hyperlink{classfood}{food}} \&\mbox{\hyperlink{classfood}{food}}, \mbox{\hyperlink{classfield}{field}} \&\mbox{\hyperlink{classfield}{field}})
+\item 
+void \mbox{\hyperlink{class_bot___snake_aad579be8e4bb5882496266be280a3eca}{select\+\_\+food}} (\mbox{\hyperlink{classfood}{food}} \&\mbox{\hyperlink{classfood}{food}})
+\item 
+bool \mbox{\hyperlink{class_bot___snake_a30b01ea9d294672a0dc3363e4c77a983}{choose\+\_\+food}} (\mbox{\hyperlink{classfield}{field}} \&\mbox{\hyperlink{classfield}{field}}, \mbox{\hyperlink{classfood}{food}} \&\mbox{\hyperlink{classfood}{food}})
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{struct_bot___snake_1_1cell}{cell}} \mbox{\hyperlink{class_bot___snake_aeff37c3bec8e0d85a3643929ab448e26}{num\+\_\+cell\+\_\+bot\+\_\+snake}} \mbox{[}900\mbox{]}
+\item 
+\mbox{\hyperlink{struct_bot___snake_1_1cell}{cell}} \mbox{\hyperlink{class_bot___snake_a0781495f0122e4ec0c8c1d3ef6e33d0f}{final\+\_\+way}} \mbox{[}900\mbox{]}
+\item 
+int \mbox{\hyperlink{class_bot___snake_a1c34dd13157c35b9c33b40c613bb3c50}{length\+\_\+bot\+\_\+snake}} = 3
+\item 
+\mbox{\hyperlink{struct_bot___snake_1_1cell}{cell}} \mbox{\hyperlink{class_bot___snake_a0199ce0cfb1b994f959b69cd95c579ef}{prev\+\_\+position\+\_\+tail\+\_\+bot\+\_\+snake}}
+\item 
+int \mbox{\hyperlink{class_bot___snake_a2a61b9b723a4ea18e2d2799592ae157d}{now\+\_\+direction\+\_\+bot}} = 3
+\item 
+\mbox{\hyperlink{struct_bot___snake_1_1cell}{cell}} \mbox{\hyperlink{class_bot___snake_acf224190458c7453279b3b7c9e06cd41}{selected\+\_\+food}}
+\item 
+\mbox{\hyperlink{struct_bot___snake_1_1cell}{cell}} \mbox{\hyperlink{class_bot___snake_ab5b2d981e09a6964b59a9930784861e0}{finish\+\_\+long\+\_\+way}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+
+
+Definition at line \mbox{\hyperlink{_bot___snake_8h_source_l00006}{6}} of file \mbox{\hyperlink{_bot___snake_8h_source}{Bot\+\_\+\+Snake.\+h}}.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_bot___snake_a30b01ea9d294672a0dc3363e4c77a983}\label{class_bot___snake_a30b01ea9d294672a0dc3363e4c77a983}} 
+\index{Bot\_Snake@{Bot\_Snake}!choose\_food@{choose\_food}}
+\index{choose\_food@{choose\_food}!Bot\_Snake@{Bot\_Snake}}
+\doxysubsubsection{\texorpdfstring{choose\_food()}{choose\_food()}}
+{\footnotesize\ttfamily bool Bot\+\_\+\+Snake\+::choose\+\_\+food (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classfield}{field}} \&}]{field,  }\item[{\mbox{\hyperlink{classfood}{food}} \&}]{food }\end{DoxyParamCaption})}
+
+
+
+Definition at line \mbox{\hyperlink{_bot___snake_8cpp_source_l00045}{45}} of file \mbox{\hyperlink{_bot___snake_8cpp_source}{Bot\+\_\+\+Snake.\+cpp}}.
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_bot___snake_a30b01ea9d294672a0dc3363e4c77a983_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_bot___snake_a3f9661b5b678ab2aea1678465b6e862d}\label{class_bot___snake_a3f9661b5b678ab2aea1678465b6e862d}} 
+\index{Bot\_Snake@{Bot\_Snake}!draw\_bot\_snake@{draw\_bot\_snake}}
+\index{draw\_bot\_snake@{draw\_bot\_snake}!Bot\_Snake@{Bot\_Snake}}
+\doxysubsubsection{\texorpdfstring{draw\_bot\_snake()}{draw\_bot\_snake()}}
+{\footnotesize\ttfamily void Bot\+\_\+\+Snake\+::draw\+\_\+bot\+\_\+snake (\begin{DoxyParamCaption}\item[{sf\+::\+Render\+Window \&}]{window,  }\item[{\mbox{\hyperlink{classfield}{field}} \&}]{field }\end{DoxyParamCaption})}
+
+
+
+Definition at line \mbox{\hyperlink{_bot___snake_8cpp_source_l00005}{5}} of file \mbox{\hyperlink{_bot___snake_8cpp_source}{Bot\+\_\+\+Snake.\+cpp}}.
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=343pt]{class_bot___snake_a3f9661b5b678ab2aea1678465b6e862d_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_bot___snake_ab7e97af03821f641d037d38ddb4161f5}\label{class_bot___snake_ab7e97af03821f641d037d38ddb4161f5}} 
+\index{Bot\_Snake@{Bot\_Snake}!draw\_eyes\_bot\_snake@{draw\_eyes\_bot\_snake}}
+\index{draw\_eyes\_bot\_snake@{draw\_eyes\_bot\_snake}!Bot\_Snake@{Bot\_Snake}}
+\doxysubsubsection{\texorpdfstring{draw\_eyes\_bot\_snake()}{draw\_eyes\_bot\_snake()}}
+{\footnotesize\ttfamily void Bot\+\_\+\+Snake\+::draw\+\_\+eyes\+\_\+bot\+\_\+snake (\begin{DoxyParamCaption}\item[{sf\+::\+Render\+Window \&}]{window,  }\item[{\mbox{\hyperlink{classfield}{field}} \&}]{field }\end{DoxyParamCaption})}
+
+
+
+Definition at line \mbox{\hyperlink{_bot___snake_8cpp_source_l00015}{15}} of file \mbox{\hyperlink{_bot___snake_8cpp_source}{Bot\+\_\+\+Snake.\+cpp}}.
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_bot___snake_ab7e97af03821f641d037d38ddb4161f5_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_bot___snake_a2116e2f11fa7bfeac34966df667714f1}\label{class_bot___snake_a2116e2f11fa7bfeac34966df667714f1}} 
+\index{Bot\_Snake@{Bot\_Snake}!eat\_food\_bot\_snake@{eat\_food\_bot\_snake}}
+\index{eat\_food\_bot\_snake@{eat\_food\_bot\_snake}!Bot\_Snake@{Bot\_Snake}}
+\doxysubsubsection{\texorpdfstring{eat\_food\_bot\_snake()}{eat\_food\_bot\_snake()}}
+{\footnotesize\ttfamily void Bot\+\_\+\+Snake\+::eat\+\_\+food\+\_\+bot\+\_\+snake (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classfood}{food}} \&}]{food,  }\item[{\mbox{\hyperlink{classfield}{field}} \&}]{field }\end{DoxyParamCaption})}
+
+
+
+Definition at line \mbox{\hyperlink{_bot___snake_8cpp_source_l00263}{263}} of file \mbox{\hyperlink{_bot___snake_8cpp_source}{Bot\+\_\+\+Snake.\+cpp}}.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=333pt]{class_bot___snake_a2116e2f11fa7bfeac34966df667714f1_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=340pt]{class_bot___snake_a2116e2f11fa7bfeac34966df667714f1_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_bot___snake_a33f58e5d1b7ece1f9ec1ab648ddbdc0e}\label{class_bot___snake_a33f58e5d1b7ece1f9ec1ab648ddbdc0e}} 
+\index{Bot\_Snake@{Bot\_Snake}!find\_way@{find\_way}}
+\index{find\_way@{find\_way}!Bot\_Snake@{Bot\_Snake}}
+\doxysubsubsection{\texorpdfstring{find\_way()}{find\_way()}}
+{\footnotesize\ttfamily bool Bot\+\_\+\+Snake\+::find\+\_\+way (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classfield}{field}} \&}]{field,  }\item[{\mbox{\hyperlink{classfood}{food}} \&}]{food }\end{DoxyParamCaption})}
+
+
+
+Definition at line \mbox{\hyperlink{_bot___snake_8cpp_source_l00128}{128}} of file \mbox{\hyperlink{_bot___snake_8cpp_source}{Bot\+\_\+\+Snake.\+cpp}}.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_bot___snake_a33f58e5d1b7ece1f9ec1ab648ddbdc0e_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_bot___snake_a33f58e5d1b7ece1f9ec1ab648ddbdc0e_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_bot___snake_a4f5b1aabbd1ea816b8ddc811ca73cb5e}\label{class_bot___snake_a4f5b1aabbd1ea816b8ddc811ca73cb5e}} 
+\index{Bot\_Snake@{Bot\_Snake}!grow\_bot\_snake@{grow\_bot\_snake}}
+\index{grow\_bot\_snake@{grow\_bot\_snake}!Bot\_Snake@{Bot\_Snake}}
+\doxysubsubsection{\texorpdfstring{grow\_bot\_snake()}{grow\_bot\_snake()}}
+{\footnotesize\ttfamily void Bot\+\_\+\+Snake\+::grow\+\_\+bot\+\_\+snake (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classfield}{field}} \&}]{field }\end{DoxyParamCaption})}
+
+
+
+Definition at line \mbox{\hyperlink{_bot___snake_8cpp_source_l00276}{276}} of file \mbox{\hyperlink{_bot___snake_8cpp_source}{Bot\+\_\+\+Snake.\+cpp}}.
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_bot___snake_a4f5b1aabbd1ea816b8ddc811ca73cb5e_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_bot___snake_acc08dc1059a6ab33307b07cfa84da095}\label{class_bot___snake_acc08dc1059a6ab33307b07cfa84da095}} 
+\index{Bot\_Snake@{Bot\_Snake}!if\_no\_straight\_way@{if\_no\_straight\_way}}
+\index{if\_no\_straight\_way@{if\_no\_straight\_way}!Bot\_Snake@{Bot\_Snake}}
+\doxysubsubsection{\texorpdfstring{if\_no\_straight\_way()}{if\_no\_straight\_way()}}
+{\footnotesize\ttfamily bool Bot\+\_\+\+Snake\+::if\+\_\+no\+\_\+straight\+\_\+way (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classfield}{field}} \&}]{ff }\end{DoxyParamCaption})}
+
+
+
+Definition at line \mbox{\hyperlink{_bot___snake_8cpp_source_l00091}{91}} of file \mbox{\hyperlink{_bot___snake_8cpp_source}{Bot\+\_\+\+Snake.\+cpp}}.
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_bot___snake_acc08dc1059a6ab33307b07cfa84da095_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_bot___snake_a5d12e7beff247902f76e7dc622ecec8e}\label{class_bot___snake_a5d12e7beff247902f76e7dc622ecec8e}} 
+\index{Bot\_Snake@{Bot\_Snake}!move\_bot\_snake@{move\_bot\_snake}}
+\index{move\_bot\_snake@{move\_bot\_snake}!Bot\_Snake@{Bot\_Snake}}
+\doxysubsubsection{\texorpdfstring{move\_bot\_snake()}{move\_bot\_snake()}}
+{\footnotesize\ttfamily void Bot\+\_\+\+Snake\+::move\+\_\+bot\+\_\+snake (\begin{DoxyParamCaption}\item[{sf\+::\+Render\+Window \&}]{window,  }\item[{\mbox{\hyperlink{classfield}{field}} \&}]{field,  }\item[{\mbox{\hyperlink{classfood}{food}} \&}]{food,  }\item[{bool \&}]{Is\+\_\+\+Bot\+\_\+loose }\end{DoxyParamCaption})}
+
+
+
+Definition at line \mbox{\hyperlink{_bot___snake_8cpp_source_l00207}{207}} of file \mbox{\hyperlink{_bot___snake_8cpp_source}{Bot\+\_\+\+Snake.\+cpp}}.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_bot___snake_a5d12e7beff247902f76e7dc622ecec8e_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=345pt]{class_bot___snake_a5d12e7beff247902f76e7dc622ecec8e_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_bot___snake_aad579be8e4bb5882496266be280a3eca}\label{class_bot___snake_aad579be8e4bb5882496266be280a3eca}} 
+\index{Bot\_Snake@{Bot\_Snake}!select\_food@{select\_food}}
+\index{select\_food@{select\_food}!Bot\_Snake@{Bot\_Snake}}
+\doxysubsubsection{\texorpdfstring{select\_food()}{select\_food()}}
+{\footnotesize\ttfamily void Bot\+\_\+\+Snake\+::select\+\_\+food (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classfood}{food}} \&}]{food }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_bot___snake_a0781495f0122e4ec0c8c1d3ef6e33d0f}\label{class_bot___snake_a0781495f0122e4ec0c8c1d3ef6e33d0f}} 
+\index{Bot\_Snake@{Bot\_Snake}!final\_way@{final\_way}}
+\index{final\_way@{final\_way}!Bot\_Snake@{Bot\_Snake}}
+\doxysubsubsection{\texorpdfstring{final\_way}{final\_way}}
+{\footnotesize\ttfamily \mbox{\hyperlink{struct_bot___snake_1_1cell}{cell}} Bot\+\_\+\+Snake\+::final\+\_\+way\mbox{[}900\mbox{]}}
+
+
+
+Definition at line \mbox{\hyperlink{_bot___snake_8h_source_l00015}{15}} of file \mbox{\hyperlink{_bot___snake_8h_source}{Bot\+\_\+\+Snake.\+h}}.
+
+\mbox{\Hypertarget{class_bot___snake_ab5b2d981e09a6964b59a9930784861e0}\label{class_bot___snake_ab5b2d981e09a6964b59a9930784861e0}} 
+\index{Bot\_Snake@{Bot\_Snake}!finish\_long\_way@{finish\_long\_way}}
+\index{finish\_long\_way@{finish\_long\_way}!Bot\_Snake@{Bot\_Snake}}
+\doxysubsubsection{\texorpdfstring{finish\_long\_way}{finish\_long\_way}}
+{\footnotesize\ttfamily \mbox{\hyperlink{struct_bot___snake_1_1cell}{cell}} Bot\+\_\+\+Snake\+::finish\+\_\+long\+\_\+way}
+
+
+
+Definition at line \mbox{\hyperlink{_bot___snake_8h_source_l00020}{20}} of file \mbox{\hyperlink{_bot___snake_8h_source}{Bot\+\_\+\+Snake.\+h}}.
+
+\mbox{\Hypertarget{class_bot___snake_a1c34dd13157c35b9c33b40c613bb3c50}\label{class_bot___snake_a1c34dd13157c35b9c33b40c613bb3c50}} 
+\index{Bot\_Snake@{Bot\_Snake}!length\_bot\_snake@{length\_bot\_snake}}
+\index{length\_bot\_snake@{length\_bot\_snake}!Bot\_Snake@{Bot\_Snake}}
+\doxysubsubsection{\texorpdfstring{length\_bot\_snake}{length\_bot\_snake}}
+{\footnotesize\ttfamily int Bot\+\_\+\+Snake\+::length\+\_\+bot\+\_\+snake = 3}
+
+
+
+Definition at line \mbox{\hyperlink{_bot___snake_8h_source_l00016}{16}} of file \mbox{\hyperlink{_bot___snake_8h_source}{Bot\+\_\+\+Snake.\+h}}.
+
+\mbox{\Hypertarget{class_bot___snake_a2a61b9b723a4ea18e2d2799592ae157d}\label{class_bot___snake_a2a61b9b723a4ea18e2d2799592ae157d}} 
+\index{Bot\_Snake@{Bot\_Snake}!now\_direction\_bot@{now\_direction\_bot}}
+\index{now\_direction\_bot@{now\_direction\_bot}!Bot\_Snake@{Bot\_Snake}}
+\doxysubsubsection{\texorpdfstring{now\_direction\_bot}{now\_direction\_bot}}
+{\footnotesize\ttfamily int Bot\+\_\+\+Snake\+::now\+\_\+direction\+\_\+bot = 3}
+
+
+
+Definition at line \mbox{\hyperlink{_bot___snake_8h_source_l00018}{18}} of file \mbox{\hyperlink{_bot___snake_8h_source}{Bot\+\_\+\+Snake.\+h}}.
+
+\mbox{\Hypertarget{class_bot___snake_aeff37c3bec8e0d85a3643929ab448e26}\label{class_bot___snake_aeff37c3bec8e0d85a3643929ab448e26}} 
+\index{Bot\_Snake@{Bot\_Snake}!num\_cell\_bot\_snake@{num\_cell\_bot\_snake}}
+\index{num\_cell\_bot\_snake@{num\_cell\_bot\_snake}!Bot\_Snake@{Bot\_Snake}}
+\doxysubsubsection{\texorpdfstring{num\_cell\_bot\_snake}{num\_cell\_bot\_snake}}
+{\footnotesize\ttfamily \mbox{\hyperlink{struct_bot___snake_1_1cell}{cell}} Bot\+\_\+\+Snake\+::num\+\_\+cell\+\_\+bot\+\_\+snake\mbox{[}900\mbox{]}}
+
+
+
+Definition at line \mbox{\hyperlink{_bot___snake_8h_source_l00014}{14}} of file \mbox{\hyperlink{_bot___snake_8h_source}{Bot\+\_\+\+Snake.\+h}}.
+
+\mbox{\Hypertarget{class_bot___snake_a0199ce0cfb1b994f959b69cd95c579ef}\label{class_bot___snake_a0199ce0cfb1b994f959b69cd95c579ef}} 
+\index{Bot\_Snake@{Bot\_Snake}!prev\_position\_tail\_bot\_snake@{prev\_position\_tail\_bot\_snake}}
+\index{prev\_position\_tail\_bot\_snake@{prev\_position\_tail\_bot\_snake}!Bot\_Snake@{Bot\_Snake}}
+\doxysubsubsection{\texorpdfstring{prev\_position\_tail\_bot\_snake}{prev\_position\_tail\_bot\_snake}}
+{\footnotesize\ttfamily \mbox{\hyperlink{struct_bot___snake_1_1cell}{cell}} Bot\+\_\+\+Snake\+::prev\+\_\+position\+\_\+tail\+\_\+bot\+\_\+snake}
+
+
+
+Definition at line \mbox{\hyperlink{_bot___snake_8h_source_l00017}{17}} of file \mbox{\hyperlink{_bot___snake_8h_source}{Bot\+\_\+\+Snake.\+h}}.
+
+\mbox{\Hypertarget{class_bot___snake_acf224190458c7453279b3b7c9e06cd41}\label{class_bot___snake_acf224190458c7453279b3b7c9e06cd41}} 
+\index{Bot\_Snake@{Bot\_Snake}!selected\_food@{selected\_food}}
+\index{selected\_food@{selected\_food}!Bot\_Snake@{Bot\_Snake}}
+\doxysubsubsection{\texorpdfstring{selected\_food}{selected\_food}}
+{\footnotesize\ttfamily \mbox{\hyperlink{struct_bot___snake_1_1cell}{cell}} Bot\+\_\+\+Snake\+::selected\+\_\+food}
+
+
+
+Definition at line \mbox{\hyperlink{_bot___snake_8h_source_l00019}{19}} of file \mbox{\hyperlink{_bot___snake_8h_source}{Bot\+\_\+\+Snake.\+h}}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Sbake\+\_\+\+SFML/\mbox{\hyperlink{_bot___snake_8h}{Bot\+\_\+\+Snake.\+h}}\item 
+Sbake\+\_\+\+SFML/\mbox{\hyperlink{_bot___snake_8cpp}{Bot\+\_\+\+Snake.\+cpp}}\end{DoxyCompactItemize}

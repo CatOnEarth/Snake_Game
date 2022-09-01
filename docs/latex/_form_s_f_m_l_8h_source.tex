@@ -1,0 +1,193 @@
+\hypertarget{_form_s_f_m_l_8h_source}{}\doxysection{Form\+SFML.\+h}
+\label{_form_s_f_m_l_8h_source}\index{Sbake\_SFML/FormSFML.h@{Sbake\_SFML/FormSFML.h}}
+\mbox{\hyperlink{_form_s_f_m_l_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00001}00001 \textcolor{preprocessor}{\#pragma once}}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00002}00002 }
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00003}00003 \textcolor{preprocessor}{\#include <SFML/Graphics.hpp>}}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00004}00004 \textcolor{preprocessor}{\#include <string>}}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00005}00005 \textcolor{comment}{//\#include "{}EllipseShape.h"{}}}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00006}00006 }
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00007}00007 \textcolor{keyword}{using namespace }std;}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00008}00008 \textcolor{keyword}{using namespace }sf;}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00009}00009 }
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00010}\mbox{\hyperlink{namespaceform}{00010}} \textcolor{keyword}{namespace }\mbox{\hyperlink{namespaceform}{form}} \{}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00011}\mbox{\hyperlink{namespaceform_a4bfbf0512900fae4a0c86a1deb57010f}{00011}}     Font \mbox{\hyperlink{namespaceform_a4bfbf0512900fae4a0c86a1deb57010f}{None}};              \textcolor{comment}{// Шрифт первичная инициализация}}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00012}00012 }
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00013}\mbox{\hyperlink{classform_1_1_label}{00013}}     \textcolor{keyword}{class }\mbox{\hyperlink{classform_1_1_label}{Label}} \{}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00014}00014     \textcolor{keyword}{public}:}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00015}\mbox{\hyperlink{classform_1_1_label_a199a938600fd51929896355ebb9cd2d9}{00015}}         \textcolor{keywordtype}{string} \mbox{\hyperlink{classform_1_1_label_a199a938600fd51929896355ebb9cd2d9}{text}};    \textcolor{comment}{//Текст}}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00016}00016     \textcolor{keyword}{protected}:}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00017}\mbox{\hyperlink{classform_1_1_label_aa5a984d62c0a667e7f2188ca1eb89055}{00017}}         \textcolor{keywordtype}{double} \mbox{\hyperlink{classform_1_1_label_aa5a984d62c0a667e7f2188ca1eb89055}{x}};      \textcolor{comment}{//Координата x}}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00018}\mbox{\hyperlink{classform_1_1_label_ad9cada1e4a62fcde5b2ad4c137753460}{00018}}         \textcolor{keywordtype}{double} \mbox{\hyperlink{classform_1_1_label_ad9cada1e4a62fcde5b2ad4c137753460}{y}};      \textcolor{comment}{//Координата y}}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00019}00019 }
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00020}\mbox{\hyperlink{classform_1_1_label_a66c1996034490d1a59812e5dae030798}{00020}}         Text \mbox{\hyperlink{classform_1_1_label_a66c1996034490d1a59812e5dae030798}{TXT}};        \textcolor{comment}{//Отображаемый текст}}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00021}\mbox{\hyperlink{classform_1_1_label_a1946c01c6e51cc785fc363bd12b46774}{00021}}         \textcolor{keywordtype}{int} \mbox{\hyperlink{classform_1_1_label_a1946c01c6e51cc785fc363bd12b46774}{size}} = 20;}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00022}00022 }
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00023}00023     \textcolor{keyword}{public}:}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00024}\mbox{\hyperlink{classform_1_1_label_a824f45d44c3e98b39aa15be3bedd4579}{00024}}         \mbox{\hyperlink{classform_1_1_label_a824f45d44c3e98b39aa15be3bedd4579}{Label}}(\textcolor{keywordtype}{double} \_x = 0, \textcolor{keywordtype}{double} \_y = 0, \textcolor{keywordtype}{string} \_text = \textcolor{stringliteral}{"{}Label"{}})}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00025}00025         \{}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00026}00026             \mbox{\hyperlink{namespaceform_a4bfbf0512900fae4a0c86a1deb57010f}{None}}.loadFromFile(\textcolor{stringliteral}{"{}arial.ttf"{}});         \textcolor{comment}{//передаем нашему шрифту файл шрифта}}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00027}00027             \mbox{\hyperlink{classform_1_1_label_aa5a984d62c0a667e7f2188ca1eb89055}{x}} = \_x;}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00028}00028             \mbox{\hyperlink{classform_1_1_label_ad9cada1e4a62fcde5b2ad4c137753460}{y}} = \_y;}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00029}00029             \mbox{\hyperlink{classform_1_1_label_a199a938600fd51929896355ebb9cd2d9}{text}} = \_text;   }
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00030}00030             \textcolor{comment}{//size = \_size;// загружает текст}}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00031}00031             \mbox{\hyperlink{classform_1_1_label_a66c1996034490d1a59812e5dae030798}{TXT}}.setFont(\mbox{\hyperlink{namespaceform_a4bfbf0512900fae4a0c86a1deb57010f}{None}});                           \textcolor{comment}{// загружаем фрифт}}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00032}00032             \mbox{\hyperlink{classform_1_1_label_a66c1996034490d1a59812e5dae030798}{TXT}}.setCharacterSize(\mbox{\hyperlink{classform_1_1_label_a1946c01c6e51cc785fc363bd12b46774}{size}});                  \textcolor{comment}{// в пикселях, а не точках!}}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00033}00033             \textcolor{comment}{//TXT.setColor(Color::White);                   // устанавливаем цвет выводимого текста}}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00034}00034             \mbox{\hyperlink{classform_1_1_label_a66c1996034490d1a59812e5dae030798}{TXT}}.setPosition(\mbox{\hyperlink{classform_1_1_label_aa5a984d62c0a667e7f2188ca1eb89055}{x}}, \mbox{\hyperlink{classform_1_1_label_ad9cada1e4a62fcde5b2ad4c137753460}{y}});                     \textcolor{comment}{// позиция текста}}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00035}00035         \}}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00036}\mbox{\hyperlink{classform_1_1_label_aa3b0e88c10480a7717687360ed9676db}{00036}}         Text \mbox{\hyperlink{classform_1_1_label_aa3b0e88c10480a7717687360ed9676db}{displayText}}(\textcolor{keywordtype}{int} ss)}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00037}00037         \{}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00038}00038             \mbox{\hyperlink{classform_1_1_label_a66c1996034490d1a59812e5dae030798}{TXT}}.setString(\mbox{\hyperlink{classform_1_1_label_a199a938600fd51929896355ebb9cd2d9}{text}});                     \textcolor{comment}{// загружаем в выводимый текст загружаемый текст}}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00039}00039             \mbox{\hyperlink{classform_1_1_label_a66c1996034490d1a59812e5dae030798}{TXT}}.setCharacterSize(ss);}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00040}00040             \textcolor{keywordflow}{return} \mbox{\hyperlink{classform_1_1_label_a66c1996034490d1a59812e5dae030798}{TXT}};}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00041}00041         \}}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00042}\mbox{\hyperlink{classform_1_1_label_a8daa97ca7616ee795170032f47e73cda}{00042}}         \textcolor{keywordtype}{void} \mbox{\hyperlink{classform_1_1_label_a8daa97ca7616ee795170032f47e73cda}{setText}}(\textcolor{keywordtype}{string} change\_text) \{}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00043}00043             \mbox{\hyperlink{classform_1_1_label_a199a938600fd51929896355ebb9cd2d9}{text}} = change\_text;}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00044}00044         \}}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00045}00045     \};}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00046}00046 }
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00047}\mbox{\hyperlink{classform_1_1_button}{00047}}     \textcolor{keyword}{class }\mbox{\hyperlink{classform_1_1_button}{Button}} : \textcolor{keyword}{public} \mbox{\hyperlink{classform_1_1_label}{Label}} \{}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00048}00048     \textcolor{keyword}{protected}:}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00049}\mbox{\hyperlink{classform_1_1_button_a2ae2079a14f1d0559d687a0e8df7d605}{00049}}         \textcolor{keywordtype}{double} \mbox{\hyperlink{classform_1_1_button_a2ae2079a14f1d0559d687a0e8df7d605}{width}};      \textcolor{comment}{// Ширина Кнопки}}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00050}\mbox{\hyperlink{classform_1_1_button_a415883e5eb65005e7dad41f1ba62758a}{00050}}         \textcolor{keywordtype}{double} \mbox{\hyperlink{classform_1_1_button_a415883e5eb65005e7dad41f1ba62758a}{height}};        \textcolor{comment}{// Высота Кнопки}}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00051}\mbox{\hyperlink{classform_1_1_button_aa440ea05a29a9d80043a75712231244c}{00051}}         RectangleShape \mbox{\hyperlink{classform_1_1_button_aa440ea05a29a9d80043a75712231244c}{BOX}};  \textcolor{comment}{// Создаем прямоугольник с размером width, height}}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00052}\mbox{\hyperlink{classform_1_1_button_a857b6f7d3450a69368c03a7e7fbc65cb}{00052}}         sf::Color \mbox{\hyperlink{classform_1_1_button_a857b6f7d3450a69368c03a7e7fbc65cb}{color}};}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00053}\mbox{\hyperlink{classform_1_1_button_a872c9775cc007bad2f49de45612778b3}{00053}}         \textcolor{keywordtype}{int} \mbox{\hyperlink{classform_1_1_button_a872c9775cc007bad2f49de45612778b3}{size\_text}};}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00054}00054     \textcolor{keyword}{public}:}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00055}\mbox{\hyperlink{classform_1_1_button_ac9ae092143587d93e4af8a4208a865ec}{00055}}         \mbox{\hyperlink{classform_1_1_button_ac9ae092143587d93e4af8a4208a865ec}{Button}}(\textcolor{keywordtype}{double} \_x = 0, \textcolor{keywordtype}{double} \_y = 0, \textcolor{keywordtype}{double} \_width = 150, \textcolor{keywordtype}{double} \_height = 30, \textcolor{keywordtype}{string} \_text = \textcolor{stringliteral}{"{}Hello"{}}, sf::Color \_color = sf::Color::Blue, \textcolor{keywordtype}{int} \_size\_text = 40)}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00056}00056         \{}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00057}00057             \mbox{\hyperlink{namespaceform_a4bfbf0512900fae4a0c86a1deb57010f}{None}}.loadFromFile(\textcolor{stringliteral}{"{}arial.ttf"{}});         \textcolor{comment}{//передаем нашему шрифту файл шрифта}}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00058}00058             \mbox{\hyperlink{classform_1_1_label_aa5a984d62c0a667e7f2188ca1eb89055}{x}} = \_x;}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00059}00059             \mbox{\hyperlink{classform_1_1_label_ad9cada1e4a62fcde5b2ad4c137753460}{y}} = \_y;}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00060}00060             \mbox{\hyperlink{classform_1_1_button_a2ae2079a14f1d0559d687a0e8df7d605}{width}} = \_width;}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00061}00061             \mbox{\hyperlink{classform_1_1_button_a415883e5eb65005e7dad41f1ba62758a}{height}} = \_height;}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00062}00062             \mbox{\hyperlink{classform_1_1_label_a199a938600fd51929896355ebb9cd2d9}{text}} = \_text;       }
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00063}00063             \mbox{\hyperlink{classform_1_1_button_a857b6f7d3450a69368c03a7e7fbc65cb}{color}} = \_color;}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00064}00064             \mbox{\hyperlink{classform_1_1_button_a872c9775cc007bad2f49de45612778b3}{size\_text}} = \_size\_text;}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00065}00065             \mbox{\hyperlink{classform_1_1_label_a66c1996034490d1a59812e5dae030798}{TXT}}.setFont(\mbox{\hyperlink{namespaceform_a4bfbf0512900fae4a0c86a1deb57010f}{None}});                           \textcolor{comment}{// загружаем фрифт}}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00066}00066             \mbox{\hyperlink{classform_1_1_label_a66c1996034490d1a59812e5dae030798}{TXT}}.setCharacterSize(\mbox{\hyperlink{classform_1_1_button_a872c9775cc007bad2f49de45612778b3}{size\_text}});                    \textcolor{comment}{// в пикселях, а не точках!}}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00067}00067             \mbox{\hyperlink{classform_1_1_label_a66c1996034490d1a59812e5dae030798}{TXT}}.setPosition(\mbox{\hyperlink{classform_1_1_label_aa5a984d62c0a667e7f2188ca1eb89055}{x}}, \mbox{\hyperlink{classform_1_1_label_ad9cada1e4a62fcde5b2ad4c137753460}{y}});                     \textcolor{comment}{// позиция текста}}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00068}00068 }
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00069}00069             \mbox{\hyperlink{classform_1_1_button_aa440ea05a29a9d80043a75712231244c}{BOX}}.setSize(Vector2f(\mbox{\hyperlink{classform_1_1_button_a2ae2079a14f1d0559d687a0e8df7d605}{width}}, \mbox{\hyperlink{classform_1_1_button_a415883e5eb65005e7dad41f1ba62758a}{height}}));     \textcolor{comment}{// размер кнопки}}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00070}00070             \mbox{\hyperlink{classform_1_1_button_aa440ea05a29a9d80043a75712231244c}{BOX}}.setPosition(\mbox{\hyperlink{classform_1_1_label_aa5a984d62c0a667e7f2188ca1eb89055}{x}}, \mbox{\hyperlink{classform_1_1_label_ad9cada1e4a62fcde5b2ad4c137753460}{y}});                     \textcolor{comment}{// координаты кнопки}}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00071}00071             \mbox{\hyperlink{classform_1_1_button_aa440ea05a29a9d80043a75712231244c}{BOX}}.setFillColor(\mbox{\hyperlink{classform_1_1_button_a857b6f7d3450a69368c03a7e7fbc65cb}{color}});    \textcolor{comment}{// цвет кнопки}}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00072}00072             \mbox{\hyperlink{classform_1_1_button_aa440ea05a29a9d80043a75712231244c}{BOX}}.setOutlineThickness(2);                  \textcolor{comment}{// Контур X пикселей}}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00073}00073             \mbox{\hyperlink{classform_1_1_button_aa440ea05a29a9d80043a75712231244c}{BOX}}.setOutlineColor(\mbox{\hyperlink{classform_1_1_button_a857b6f7d3450a69368c03a7e7fbc65cb}{color}});     \textcolor{comment}{// Цвет контура}}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00074}00074         \}}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00075}00075         \textcolor{comment}{//Проверка нажатия на кнопку}}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00076}\mbox{\hyperlink{classform_1_1_button_a9ce4d46a35c69b2fd63e5d7b4843fe38}{00076}}         \textcolor{keywordtype}{bool} \mbox{\hyperlink{classform_1_1_button_a9ce4d46a35c69b2fd63e5d7b4843fe38}{select}}(Vector2i \_mouse)}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00077}00077         \{}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00078}00078             \textcolor{keywordflow}{if} ((\_mouse.x > \mbox{\hyperlink{classform_1_1_label_aa5a984d62c0a667e7f2188ca1eb89055}{x}}\&\& \_mouse.x < \mbox{\hyperlink{classform_1_1_label_aa5a984d62c0a667e7f2188ca1eb89055}{x}} + \mbox{\hyperlink{classform_1_1_button_a2ae2079a14f1d0559d687a0e8df7d605}{width}}) \&\& (\_mouse.y > \mbox{\hyperlink{classform_1_1_label_ad9cada1e4a62fcde5b2ad4c137753460}{y}}\&\& \_mouse.y < \mbox{\hyperlink{classform_1_1_label_ad9cada1e4a62fcde5b2ad4c137753460}{y}} + \mbox{\hyperlink{classform_1_1_button_a415883e5eb65005e7dad41f1ba62758a}{height}})) \{}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00079}00079                 \textcolor{keywordflow}{return}  \textcolor{keyword}{true};}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00080}00080             \}}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00081}00081             \textcolor{keywordflow}{else} \{}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00082}00082                 \textcolor{keywordflow}{return} \textcolor{keyword}{false};}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00083}00083             \}}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00084}00084         \}}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00085}00085         \textcolor{comment}{//Вывод Текста}}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00086}\mbox{\hyperlink{classform_1_1_button_a8b8dba96874fe01b0b722aa7bc1fa0ba}{00086}}         Text \mbox{\hyperlink{classform_1_1_button_a8b8dba96874fe01b0b722aa7bc1fa0ba}{displayText}}()}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00087}00087         \{}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00088}00088             \mbox{\hyperlink{classform_1_1_label_a66c1996034490d1a59812e5dae030798}{TXT}}.setString(\mbox{\hyperlink{classform_1_1_label_a199a938600fd51929896355ebb9cd2d9}{text}});  \textcolor{comment}{// загружаем в выводимый текст загружаемый текст}}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00089}00089             \textcolor{keywordflow}{return} \mbox{\hyperlink{classform_1_1_label_a66c1996034490d1a59812e5dae030798}{TXT}};}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00090}00090         \}}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00091}00091         \textcolor{comment}{//Вывод кнопки}}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00092}\mbox{\hyperlink{classform_1_1_button_ad3ebc04e1ebf320cab8a07d650cf7215}{00092}}         RectangleShape \mbox{\hyperlink{classform_1_1_button_ad3ebc04e1ebf320cab8a07d650cf7215}{displayButton}}()}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00093}00093         \{}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00094}00094             \textcolor{keywordflow}{return} \mbox{\hyperlink{classform_1_1_button_aa440ea05a29a9d80043a75712231244c}{BOX}};}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00095}00095         \}}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00096}00096 }
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00097}00097 }
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00098}00098     \};}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00099}00099 }
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00100}\mbox{\hyperlink{classform_1_1_input}{00100}}     \textcolor{keyword}{class }\mbox{\hyperlink{classform_1_1_input}{Input}} : \textcolor{keyword}{public} \mbox{\hyperlink{classform_1_1_button}{Button}} \{}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00101}00101     \textcolor{keyword}{protected}:}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00102}\mbox{\hyperlink{classform_1_1_input_a735d1891a1658436eb6f78c047eb28f1}{00102}}         \textcolor{keywordtype}{bool} \mbox{\hyperlink{classform_1_1_input_a735d1891a1658436eb6f78c047eb28f1}{focus}};}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00103}00103     \textcolor{keyword}{public}:}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00104}\mbox{\hyperlink{classform_1_1_input_ad2ebb1925aa5b9e37c5692bd3d52607b}{00104}}         \mbox{\hyperlink{classform_1_1_input_ad2ebb1925aa5b9e37c5692bd3d52607b}{Input}}(\textcolor{keywordtype}{double} \_x = 0, \textcolor{keywordtype}{double} \_y = 0, \textcolor{keywordtype}{double} \_width = 150, \textcolor{keywordtype}{double} \_height = 30, \textcolor{keywordtype}{string} \_text = \textcolor{stringliteral}{"{}"{}})}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00105}00105         \{}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00106}00106             \mbox{\hyperlink{classform_1_1_label_aa5a984d62c0a667e7f2188ca1eb89055}{x}} = \_x;}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00107}00107             \mbox{\hyperlink{classform_1_1_label_ad9cada1e4a62fcde5b2ad4c137753460}{y}} = \_y;}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00108}00108             \mbox{\hyperlink{classform_1_1_button_a2ae2079a14f1d0559d687a0e8df7d605}{width}} = \_width;}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00109}00109             \mbox{\hyperlink{classform_1_1_button_a415883e5eb65005e7dad41f1ba62758a}{height}} = \_height;}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00110}00110             \mbox{\hyperlink{classform_1_1_label_a199a938600fd51929896355ebb9cd2d9}{text}} = \_text;                               \textcolor{comment}{// загружает текст}}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00111}00111             \mbox{\hyperlink{classform_1_1_input_a735d1891a1658436eb6f78c047eb28f1}{focus}} = \textcolor{keyword}{false};                             \textcolor{comment}{// фокус поля ввода}}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00112}00112 }
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00113}00113             \mbox{\hyperlink{classform_1_1_label_a66c1996034490d1a59812e5dae030798}{TXT}}.setFont(\mbox{\hyperlink{namespaceform_a4bfbf0512900fae4a0c86a1deb57010f}{None}});                           \textcolor{comment}{// загружаем фрифт}}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00114}00114             \mbox{\hyperlink{classform_1_1_label_a66c1996034490d1a59812e5dae030798}{TXT}}.setCharacterSize(20);                    \textcolor{comment}{// в пикселях, а не точках!}}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00115}00115             \textcolor{comment}{//TXT.setColor(Color::Black);                   // устанавливаем цвет выводимого текста}}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00116}00116             \mbox{\hyperlink{classform_1_1_label_a66c1996034490d1a59812e5dae030798}{TXT}}.setPosition(\mbox{\hyperlink{classform_1_1_label_aa5a984d62c0a667e7f2188ca1eb89055}{x}}, \mbox{\hyperlink{classform_1_1_label_ad9cada1e4a62fcde5b2ad4c137753460}{y}});                     \textcolor{comment}{// позиция текста}}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00117}00117 }
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00118}00118             \mbox{\hyperlink{classform_1_1_button_aa440ea05a29a9d80043a75712231244c}{BOX}}.setSize(Vector2f(\mbox{\hyperlink{classform_1_1_button_a2ae2079a14f1d0559d687a0e8df7d605}{width}}, \mbox{\hyperlink{classform_1_1_button_a415883e5eb65005e7dad41f1ba62758a}{height}}));     \textcolor{comment}{// размер поля ввода}}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00119}00119             \mbox{\hyperlink{classform_1_1_button_aa440ea05a29a9d80043a75712231244c}{BOX}}.setPosition(\mbox{\hyperlink{classform_1_1_label_aa5a984d62c0a667e7f2188ca1eb89055}{x}}, \mbox{\hyperlink{classform_1_1_label_ad9cada1e4a62fcde5b2ad4c137753460}{y}});                     \textcolor{comment}{// координаты поля ввода}}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00120}00120             \mbox{\hyperlink{classform_1_1_button_aa440ea05a29a9d80043a75712231244c}{BOX}}.setFillColor(Color::White);  \textcolor{comment}{// цвет кнопки}}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00121}00121         \}}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00122}00122         \textcolor{comment}{//метод .reText( char ) изменяет текст внутри класса Типа данных Input}}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00123}\mbox{\hyperlink{classform_1_1_input_a6bb8707aaffa894b3dfdc97f44b41f12}{00123}}         \textcolor{keywordtype}{void} \mbox{\hyperlink{classform_1_1_input_a6bb8707aaffa894b3dfdc97f44b41f12}{reText}}(\textcolor{keywordtype}{char} \_tmp)}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00124}00124         \{}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00125}00125             \mbox{\hyperlink{classform_1_1_label_a199a938600fd51929896355ebb9cd2d9}{text}}.erase(\mbox{\hyperlink{classform_1_1_label_a199a938600fd51929896355ebb9cd2d9}{text}}.size() -\/ 1);}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00126}00126 }
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00127}00127             \textcolor{keywordflow}{if} (\_tmp != 8) \{}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00128}00128                 \mbox{\hyperlink{classform_1_1_label_a199a938600fd51929896355ebb9cd2d9}{text}} += \_tmp;}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00129}00129             \}}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00130}00130             \textcolor{keywordflow}{else} \{}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00131}00131                 \textcolor{keywordflow}{if} (\mbox{\hyperlink{classform_1_1_label_a199a938600fd51929896355ebb9cd2d9}{text}}.size() > 0) \{}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00132}00132                     \mbox{\hyperlink{classform_1_1_label_a199a938600fd51929896355ebb9cd2d9}{text}}.erase(\mbox{\hyperlink{classform_1_1_label_a199a938600fd51929896355ebb9cd2d9}{text}}.size() -\/ 1);}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00133}00133                 \}}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00134}00134 }
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00135}00135             \}}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00136}00136             \mbox{\hyperlink{classform_1_1_label_a199a938600fd51929896355ebb9cd2d9}{text}} += \textcolor{stringliteral}{"{}|"{}};}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00137}00137             \mbox{\hyperlink{classform_1_1_label_a66c1996034490d1a59812e5dae030798}{TXT}}.setString(\mbox{\hyperlink{classform_1_1_label_a199a938600fd51929896355ebb9cd2d9}{text}});}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00138}00138         \}}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00139}00139 }
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00140}00140         \textcolor{comment}{// Проверка Фокуса Input}}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00141}\mbox{\hyperlink{classform_1_1_input_a77667eef8b9cf894953b0300fb255399}{00141}}         \textcolor{keywordtype}{bool} \mbox{\hyperlink{classform_1_1_input_a77667eef8b9cf894953b0300fb255399}{select}}()}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00142}00142         \{}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00143}00143             \textcolor{keywordflow}{return} \mbox{\hyperlink{classform_1_1_input_a735d1891a1658436eb6f78c047eb28f1}{focus}};}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00144}00144         \}}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00145}00145 }
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00146}00146         \textcolor{comment}{// Установка Фокуса Input}}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00147}\mbox{\hyperlink{classform_1_1_input_a3f775161962fc6496ca1e655f258c3f1}{00147}}         \textcolor{keywordtype}{bool} \mbox{\hyperlink{classform_1_1_input_a3f775161962fc6496ca1e655f258c3f1}{select}}(Vector2i \_mouse)}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00148}00148         \{}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00149}00149             \textcolor{keywordflow}{if} ((\_mouse.x > \mbox{\hyperlink{classform_1_1_label_aa5a984d62c0a667e7f2188ca1eb89055}{x}}\&\& \_mouse.x < \mbox{\hyperlink{classform_1_1_label_aa5a984d62c0a667e7f2188ca1eb89055}{x}} + \mbox{\hyperlink{classform_1_1_button_a2ae2079a14f1d0559d687a0e8df7d605}{width}}) \&\& (\_mouse.y > \mbox{\hyperlink{classform_1_1_label_ad9cada1e4a62fcde5b2ad4c137753460}{y}}\&\& \_mouse.y < \mbox{\hyperlink{classform_1_1_label_ad9cada1e4a62fcde5b2ad4c137753460}{y}} + \mbox{\hyperlink{classform_1_1_button_a415883e5eb65005e7dad41f1ba62758a}{height}})) \{   \textcolor{comment}{//Если нажат клаиша над объектом Input...}}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00150}00150                 \mbox{\hyperlink{classform_1_1_input_a735d1891a1658436eb6f78c047eb28f1}{focus}} = \textcolor{keyword}{true};                                                                      \textcolor{comment}{// Фокус true}}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00151}00151                 \mbox{\hyperlink{classform_1_1_label_a199a938600fd51929896355ebb9cd2d9}{text}} += \textcolor{stringliteral}{"{}|"{}};                                                                        \textcolor{comment}{// В конец строки добаляем | (что бы понимать что input в фокусе)}}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00152}00152             \}}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00153}00153             \textcolor{keywordflow}{else} \{                                                                              \textcolor{comment}{//...Иначе если нажатие произошло не над объектом, то...}}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00154}00154                 \textcolor{keywordflow}{if} (\mbox{\hyperlink{classform_1_1_label_a199a938600fd51929896355ebb9cd2d9}{text}}.size() > 0) \{                                                              \textcolor{comment}{// проверка последнего символа(иначе вылетает)}}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00155}00155                     \textcolor{keywordflow}{if} (\mbox{\hyperlink{classform_1_1_label_a199a938600fd51929896355ebb9cd2d9}{text}}[\mbox{\hyperlink{classform_1_1_label_a199a938600fd51929896355ebb9cd2d9}{text}}.size() -\/ 1] == 124) \{                                                 \textcolor{comment}{// если символ | ...}}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00156}00156                         \mbox{\hyperlink{classform_1_1_label_a199a938600fd51929896355ebb9cd2d9}{text}}.erase(\mbox{\hyperlink{classform_1_1_label_a199a938600fd51929896355ebb9cd2d9}{text}}.size() -\/ 1);                                                        \textcolor{comment}{// ... то удаляем его}}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00157}00157                     \}}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00158}00158                 \}}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00159}00159                 \mbox{\hyperlink{classform_1_1_input_a735d1891a1658436eb6f78c047eb28f1}{focus}} = \textcolor{keyword}{false};                                                                     \textcolor{comment}{// устанавливаем фокус false}}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00160}00160             \}}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00161}00161             \textcolor{keywordflow}{return} \mbox{\hyperlink{classform_1_1_input_a735d1891a1658436eb6f78c047eb28f1}{focus}};}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00162}00162         \}}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00163}00163 }
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00164}00164         \textcolor{comment}{//Вывод Текста}}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00165}\mbox{\hyperlink{classform_1_1_input_a202c2f2990a86f1a91cf4b60cf78ce90}{00165}}         Text \mbox{\hyperlink{classform_1_1_input_a202c2f2990a86f1a91cf4b60cf78ce90}{displayText}}()}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00166}00166         \{}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00167}00167             \mbox{\hyperlink{classform_1_1_label_a66c1996034490d1a59812e5dae030798}{TXT}}.setString(\mbox{\hyperlink{classform_1_1_label_a199a938600fd51929896355ebb9cd2d9}{text}});                     \textcolor{comment}{// загружаем в выводимый текст загружаемый текст}}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00168}00168             \textcolor{keywordflow}{return} \mbox{\hyperlink{classform_1_1_label_a66c1996034490d1a59812e5dae030798}{TXT}};}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00169}00169         \}}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00170}00170 }
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00171}00171         \textcolor{comment}{//Вывод фона Input}}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00172}\mbox{\hyperlink{classform_1_1_input_a2bdaf9956bd373d32da5d9de5700c2d1}{00172}}         RectangleShape \mbox{\hyperlink{classform_1_1_input_a2bdaf9956bd373d32da5d9de5700c2d1}{displayBOX}}()}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00173}00173         \{}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00174}00174             \textcolor{keywordflow}{return} \mbox{\hyperlink{classform_1_1_button_aa440ea05a29a9d80043a75712231244c}{BOX}};}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00175}00175         \}}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00176}00176 }
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00177}00177         \textcolor{comment}{//Для того, что бы считать текст с поля Ipnut необходимо пременить  readText() который возвращает string}}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00178}\mbox{\hyperlink{classform_1_1_input_a5229fe7a01bd96f590bd502dd80fc24a}{00178}}         \textcolor{keywordtype}{string} \mbox{\hyperlink{classform_1_1_input_a5229fe7a01bd96f590bd502dd80fc24a}{readText}}()}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00179}00179         \{}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00180}00180             \textcolor{keywordflow}{if} (\mbox{\hyperlink{classform_1_1_label_a199a938600fd51929896355ebb9cd2d9}{text}}[\mbox{\hyperlink{classform_1_1_label_a199a938600fd51929896355ebb9cd2d9}{text}}.size() -\/ 1] == 124) \{     \textcolor{comment}{// удаляем (если есть) символ |}}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00181}00181                 \mbox{\hyperlink{classform_1_1_label_a199a938600fd51929896355ebb9cd2d9}{text}}.erase(\mbox{\hyperlink{classform_1_1_label_a199a938600fd51929896355ebb9cd2d9}{text}}.size() -\/ 1);}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00182}00182             \}}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00183}00183             \textcolor{keywordflow}{return} \mbox{\hyperlink{classform_1_1_label_a199a938600fd51929896355ebb9cd2d9}{text}};}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00184}00184         \}}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00185}00185     \};}
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00186}00186 }
+\DoxyCodeLine{\Hypertarget{_form_s_f_m_l_8h_source_l00187}00187 \} \textcolor{comment}{/* namespace form */}}
+
+\end{DoxyCode}

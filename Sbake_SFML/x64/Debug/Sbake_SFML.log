@@ -1,0 +1,335 @@
+﻿  Bot_Snake.cpp
+D:\vs_project\project_game_snake_sfml\Sbake_SFML\Sbake_SFML\Bot_Snake.cpp(8,209): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+D:\vs_project\project_game_snake_sfml\Sbake_SFML\Sbake_SFML\Bot_Snake.cpp(8,115): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+D:\vs_project\project_game_snake_sfml\Sbake_SFML\Sbake_SFML\Bot_Snake.cpp(25,207): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+D:\vs_project\project_game_snake_sfml\Sbake_SFML\Sbake_SFML\Bot_Snake.cpp(25,114): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+D:\vs_project\project_game_snake_sfml\Sbake_SFML\Sbake_SFML\Bot_Snake.cpp(26,207): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+D:\vs_project\project_game_snake_sfml\Sbake_SFML\Sbake_SFML\Bot_Snake.cpp(26,114): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+D:\vs_project\project_game_snake_sfml\Sbake_SFML\Sbake_SFML\Bot_Snake.cpp(29,206): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+D:\vs_project\project_game_snake_sfml\Sbake_SFML\Sbake_SFML\Bot_Snake.cpp(29,114): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+D:\vs_project\project_game_snake_sfml\Sbake_SFML\Sbake_SFML\Bot_Snake.cpp(30,207): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+D:\vs_project\project_game_snake_sfml\Sbake_SFML\Sbake_SFML\Bot_Snake.cpp(30,114): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+D:\vs_project\project_game_snake_sfml\Sbake_SFML\Sbake_SFML\Bot_Snake.cpp(33,206): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+D:\vs_project\project_game_snake_sfml\Sbake_SFML\Sbake_SFML\Bot_Snake.cpp(33,114): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+D:\vs_project\project_game_snake_sfml\Sbake_SFML\Sbake_SFML\Bot_Snake.cpp(34,207): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+D:\vs_project\project_game_snake_sfml\Sbake_SFML\Sbake_SFML\Bot_Snake.cpp(34,114): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+D:\vs_project\project_game_snake_sfml\Sbake_SFML\Sbake_SFML\Bot_Snake.cpp(37,206): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+D:\vs_project\project_game_snake_sfml\Sbake_SFML\Sbake_SFML\Bot_Snake.cpp(37,114): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+D:\vs_project\project_game_snake_sfml\Sbake_SFML\Sbake_SFML\Bot_Snake.cpp(38,206): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+D:\vs_project\project_game_snake_sfml\Sbake_SFML\Sbake_SFML\Bot_Snake.cpp(38,114): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+  field.cpp
+D:\vs_project\project_game_snake_sfml\Sbake_SFML\Sbake_SFML\field.cpp(33,79): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+D:\vs_project\project_game_snake_sfml\Sbake_SFML\Sbake_SFML\field.cpp(33,45): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+D:\vs_project\project_game_snake_sfml\Sbake_SFML\Sbake_SFML\field.cpp(41,39): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+D:\vs_project\project_game_snake_sfml\Sbake_SFML\Sbake_SFML\field.cpp(47,40): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+D:\vs_project\project_game_snake_sfml\Sbake_SFML\Sbake_SFML\field.cpp(53,47): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+D:\vs_project\project_game_snake_sfml\Sbake_SFML\Sbake_SFML\field.cpp(59,40): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+  food.cpp
+D:\vs_project\project_game_snake_sfml\Sbake_SFML\Sbake_SFML\food.cpp(5,29): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+D:\vs_project\project_game_snake_sfml\Sbake_SFML\Sbake_SFML\food.cpp(25,189): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+D:\vs_project\project_game_snake_sfml\Sbake_SFML\Sbake_SFML\food.cpp(25,105): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+  Game.cpp
+D:\vs_project\project_game_snake_sfml\Sbake_SFML\Sbake_SFML\FormSFML.h(34,23): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+D:\vs_project\project_game_snake_sfml\Sbake_SFML\Sbake_SFML\FormSFML.h(34,20): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+D:\vs_project\project_game_snake_sfml\Sbake_SFML\Sbake_SFML\FormSFML.h(67,23): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+D:\vs_project\project_game_snake_sfml\Sbake_SFML\Sbake_SFML\FormSFML.h(67,20): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+D:\vs_project\project_game_snake_sfml\Sbake_SFML\Sbake_SFML\FormSFML.h(69,32): warning C4244: аргумент: преобразование "double" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+D:\vs_project\project_game_snake_sfml\Sbake_SFML\Sbake_SFML\FormSFML.h(69,25): warning C4244: аргумент: преобразование "double" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+D:\vs_project\project_game_snake_sfml\Sbake_SFML\Sbake_SFML\FormSFML.h(70,23): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+D:\vs_project\project_game_snake_sfml\Sbake_SFML\Sbake_SFML\FormSFML.h(70,20): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+D:\vs_project\project_game_snake_sfml\Sbake_SFML\Sbake_SFML\FormSFML.h(116,23): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+D:\vs_project\project_game_snake_sfml\Sbake_SFML\Sbake_SFML\FormSFML.h(116,20): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+D:\vs_project\project_game_snake_sfml\Sbake_SFML\Sbake_SFML\FormSFML.h(118,32): warning C4244: аргумент: преобразование "double" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+D:\vs_project\project_game_snake_sfml\Sbake_SFML\Sbake_SFML\FormSFML.h(118,25): warning C4244: аргумент: преобразование "double" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+D:\vs_project\project_game_snake_sfml\Sbake_SFML\Sbake_SFML\FormSFML.h(119,23): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+D:\vs_project\project_game_snake_sfml\Sbake_SFML\Sbake_SFML\FormSFML.h(119,20): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+D:\vs_project\project_game_snake_sfml\Sbake_SFML\Sbake_SFML\Game.cpp(68,74): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+D:\vs_project\project_game_snake_sfml\Sbake_SFML\Sbake_SFML\Game.cpp(68,61): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+D:\vs_project\project_game_snake_sfml\Sbake_SFML\Sbake_SFML\Game.cpp(73,76): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+D:\vs_project\project_game_snake_sfml\Sbake_SFML\Sbake_SFML\Game.cpp(73,63): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+D:\vs_project\project_game_snake_sfml\Sbake_SFML\Sbake_SFML\Game.cpp(78,77): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+D:\vs_project\project_game_snake_sfml\Sbake_SFML\Sbake_SFML\Game.cpp(78,64): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+D:\vs_project\project_game_snake_sfml\Sbake_SFML\Sbake_SFML\Game.cpp(96,72): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+D:\vs_project\project_game_snake_sfml\Sbake_SFML\Sbake_SFML\Game.cpp(96,59): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+D:\vs_project\project_game_snake_sfml\Sbake_SFML\Sbake_SFML\Game.cpp(101,74): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+D:\vs_project\project_game_snake_sfml\Sbake_SFML\Sbake_SFML\Game.cpp(101,61): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+D:\vs_project\project_game_snake_sfml\Sbake_SFML\Sbake_SFML\Game.cpp(245,73): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+D:\vs_project\project_game_snake_sfml\Sbake_SFML\Sbake_SFML\Game.cpp(245,60): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+D:\vs_project\project_game_snake_sfml\Sbake_SFML\Sbake_SFML\Game.cpp(249,77): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+D:\vs_project\project_game_snake_sfml\Sbake_SFML\Sbake_SFML\Game.cpp(249,64): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+D:\vs_project\project_game_snake_sfml\Sbake_SFML\Sbake_SFML\Game.cpp(254,76): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+D:\vs_project\project_game_snake_sfml\Sbake_SFML\Sbake_SFML\Game.cpp(254,63): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+D:\vs_project\project_game_snake_sfml\Sbake_SFML\Sbake_SFML\Game.cpp(427,13): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+  Snake_player.cpp
+D:\vs_project\project_game_snake_sfml\Sbake_SFML\Sbake_SFML\Snake_player.cpp(11,193): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+D:\vs_project\project_game_snake_sfml\Sbake_SFML\Sbake_SFML\Snake_player.cpp(11,107): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+D:\vs_project\project_game_snake_sfml\Sbake_SFML\Sbake_SFML\Snake_player.cpp(28,191): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+D:\vs_project\project_game_snake_sfml\Sbake_SFML\Sbake_SFML\Snake_player.cpp(28,106): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+D:\vs_project\project_game_snake_sfml\Sbake_SFML\Sbake_SFML\Snake_player.cpp(29,191): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+D:\vs_project\project_game_snake_sfml\Sbake_SFML\Sbake_SFML\Snake_player.cpp(29,106): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+D:\vs_project\project_game_snake_sfml\Sbake_SFML\Sbake_SFML\Snake_player.cpp(32,190): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+D:\vs_project\project_game_snake_sfml\Sbake_SFML\Sbake_SFML\Snake_player.cpp(32,106): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+D:\vs_project\project_game_snake_sfml\Sbake_SFML\Sbake_SFML\Snake_player.cpp(33,191): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+D:\vs_project\project_game_snake_sfml\Sbake_SFML\Sbake_SFML\Snake_player.cpp(33,106): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+D:\vs_project\project_game_snake_sfml\Sbake_SFML\Sbake_SFML\Snake_player.cpp(36,190): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+D:\vs_project\project_game_snake_sfml\Sbake_SFML\Sbake_SFML\Snake_player.cpp(36,106): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+D:\vs_project\project_game_snake_sfml\Sbake_SFML\Sbake_SFML\Snake_player.cpp(37,191): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+D:\vs_project\project_game_snake_sfml\Sbake_SFML\Sbake_SFML\Snake_player.cpp(37,106): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+D:\vs_project\project_game_snake_sfml\Sbake_SFML\Sbake_SFML\Snake_player.cpp(40,190): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+D:\vs_project\project_game_snake_sfml\Sbake_SFML\Sbake_SFML\Snake_player.cpp(40,106): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+D:\vs_project\project_game_snake_sfml\Sbake_SFML\Sbake_SFML\Snake_player.cpp(41,190): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+D:\vs_project\project_game_snake_sfml\Sbake_SFML\Sbake_SFML\Snake_player.cpp(41,106): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+  Создание кода...
+D:\vs_project\project_game_snake_sfml\Sbake_SFML\Sbake_SFML\Game.cpp(421): warning C4715: loose_game: значение возвращается не при всех путях выполнения
+Snake_player.obj : error LNK2001: неразрешенный внешний символ "__declspec(dllimport) public: void __cdecl sf::Transformable::setPosition(float,float)" (__imp_?setPosition@Transformable@sf@@QEAAXMM@Z).
+Bot_Snake.obj : error LNK2001: неразрешенный внешний символ "__declspec(dllimport) public: void __cdecl sf::Transformable::setPosition(float,float)" (__imp_?setPosition@Transformable@sf@@QEAAXMM@Z).
+field.obj : error LNK2001: неразрешенный внешний символ "__declspec(dllimport) public: void __cdecl sf::Transformable::setPosition(float,float)" (__imp_?setPosition@Transformable@sf@@QEAAXMM@Z).
+food.obj : error LNK2001: неразрешенный внешний символ "__declspec(dllimport) public: void __cdecl sf::Transformable::setPosition(float,float)" (__imp_?setPosition@Transformable@sf@@QEAAXMM@Z).
+Game.obj : error LNK2001: неразрешенный внешний символ "__declspec(dllimport) public: void __cdecl sf::Transformable::setPosition(float,float)" (__imp_?setPosition@Transformable@sf@@QEAAXMM@Z).
+Bot_Snake.obj : error LNK2019: ссылка на неразрешенный внешний символ "__declspec(dllimport) public: __cdecl sf::Color::Color(unsigned char,unsigned char,unsigned char,unsigned char)" (__imp_??0Color@sf@@QEAA@EEEE@Z) в функции "public: void __cdecl Bot_Snake::draw_bot_snake(class sf::RenderWindow &,class field &)" (?draw_bot_snake@Bot_Snake@@QEAAXAEAVRenderWindow@sf@@AEAVfield@@@Z).
+field.obj : error LNK2001: неразрешенный внешний символ "__declspec(dllimport) public: __cdecl sf::Color::Color(unsigned char,unsigned char,unsigned char,unsigned char)" (__imp_??0Color@sf@@QEAA@EEEE@Z).
+Game.obj : error LNK2001: неразрешенный внешний символ "__declspec(dllimport) public: __cdecl sf::Color::Color(unsigned char,unsigned char,unsigned char,unsigned char)" (__imp_??0Color@sf@@QEAA@EEEE@Z).
+Bot_Snake.obj : error LNK2019: ссылка на неразрешенный внешний символ "__declspec(dllimport) public: void __cdecl sf::Shape::setFillColor(class sf::Color const &)" (__imp_?setFillColor@Shape@sf@@QEAAXAEBVColor@2@@Z) в функции "public: void __cdecl Bot_Snake::draw_bot_snake(class sf::RenderWindow &,class field &)" (?draw_bot_snake@Bot_Snake@@QEAAXAEAVRenderWindow@sf@@AEAVfield@@@Z).
+field.obj : error LNK2001: неразрешенный внешний символ "__declspec(dllimport) public: void __cdecl sf::Shape::setFillColor(class sf::Color const &)" (__imp_?setFillColor@Shape@sf@@QEAAXAEBVColor@2@@Z).
+Game.obj : error LNK2001: неразрешенный внешний символ "__declspec(dllimport) public: void __cdecl sf::Shape::setFillColor(class sf::Color const &)" (__imp_?setFillColor@Shape@sf@@QEAAXAEBVColor@2@@Z).
+Snake_player.obj : error LNK2001: неразрешенный внешний символ "__declspec(dllimport) public: void __cdecl sf::Shape::setFillColor(class sf::Color const &)" (__imp_?setFillColor@Shape@sf@@QEAAXAEBVColor@2@@Z).
+Bot_Snake.obj : error LNK2019: ссылка на неразрешенный внешний символ "__declspec(dllimport) public: __cdecl sf::CircleShape::CircleShape(float,unsigned __int64)" (__imp_??0CircleShape@sf@@QEAA@M_K@Z) в функции "public: void __cdecl Bot_Snake::draw_eyes_bot_snake(class sf::RenderWindow &,class field &)" (?draw_eyes_bot_snake@Bot_Snake@@QEAAXAEAVRenderWindow@sf@@AEAVfield@@@Z).
+Snake_player.obj : error LNK2001: неразрешенный внешний символ "__declspec(dllimport) public: __cdecl sf::CircleShape::CircleShape(float,unsigned __int64)" (__imp_??0CircleShape@sf@@QEAA@M_K@Z).
+Bot_Snake.obj : error LNK2019: ссылка на неразрешенный внешний символ "__declspec(dllimport) public: void __cdecl sf::CircleShape::setRadius(float)" (__imp_?setRadius@CircleShape@sf@@QEAAXM@Z) в функции "public: void __cdecl Bot_Snake::draw_eyes_bot_snake(class sf::RenderWindow &,class field &)" (?draw_eyes_bot_snake@Bot_Snake@@QEAAXAEAVRenderWindow@sf@@AEAVfield@@@Z).
+Snake_player.obj : error LNK2001: неразрешенный внешний символ "__declspec(dllimport) public: void __cdecl sf::CircleShape::setRadius(float)" (__imp_?setRadius@CircleShape@sf@@QEAAXM@Z).
+Bot_Snake.obj : error LNK2019: ссылка на неразрешенный внешний символ "__declspec(dllimport) public: virtual __cdecl sf::CircleShape::~CircleShape(void)" (__imp_??1CircleShape@sf@@UEAA@XZ) в функции "public: void __cdecl Bot_Snake::draw_eyes_bot_snake(class sf::RenderWindow &,class field &)" (?draw_eyes_bot_snake@Bot_Snake@@QEAAXAEAVRenderWindow@sf@@AEAVfield@@@Z).
+Snake_player.obj : error LNK2001: неразрешенный внешний символ "__declspec(dllimport) public: virtual __cdecl sf::CircleShape::~CircleShape(void)" (__imp_??1CircleShape@sf@@UEAA@XZ).
+Bot_Snake.obj : error LNK2019: ссылка на неразрешенный внешний символ "__declspec(dllimport) public: __cdecl sf::RectangleShape::RectangleShape(class sf::Vector2<float> const &)" (__imp_??0RectangleShape@sf@@QEAA@AEBV?$Vector2@M@1@@Z) в функции "public: void __cdecl Bot_Snake::draw_bot_snake(class sf::RenderWindow &,class field &)" (?draw_bot_snake@Bot_Snake@@QEAAXAEAVRenderWindow@sf@@AEAVfield@@@Z).
+field.obj : error LNK2001: неразрешенный внешний символ "__declspec(dllimport) public: __cdecl sf::RectangleShape::RectangleShape(class sf::Vector2<float> const &)" (__imp_??0RectangleShape@sf@@QEAA@AEBV?$Vector2@M@1@@Z).
+Game.obj : error LNK2001: неразрешенный внешний символ "__declspec(dllimport) public: __cdecl sf::RectangleShape::RectangleShape(class sf::Vector2<float> const &)" (__imp_??0RectangleShape@sf@@QEAA@AEBV?$Vector2@M@1@@Z).
+Snake_player.obj : error LNK2001: неразрешенный внешний символ "__declspec(dllimport) public: __cdecl sf::RectangleShape::RectangleShape(class sf::Vector2<float> const &)" (__imp_??0RectangleShape@sf@@QEAA@AEBV?$Vector2@M@1@@Z).
+Bot_Snake.obj : error LNK2019: ссылка на неразрешенный внешний символ "__declspec(dllimport) public: virtual __cdecl sf::RectangleShape::~RectangleShape(void)" (__imp_??1RectangleShape@sf@@UEAA@XZ) в функции "public: void __cdecl Bot_Snake::draw_bot_snake(class sf::RenderWindow &,class field &)" (?draw_bot_snake@Bot_Snake@@QEAAXAEAVRenderWindow@sf@@AEAVfield@@@Z).
+field.obj : error LNK2001: неразрешенный внешний символ "__declspec(dllimport) public: virtual __cdecl sf::RectangleShape::~RectangleShape(void)" (__imp_??1RectangleShape@sf@@UEAA@XZ).
+Game.obj : error LNK2001: неразрешенный внешний символ "__declspec(dllimport) public: virtual __cdecl sf::RectangleShape::~RectangleShape(void)" (__imp_??1RectangleShape@sf@@UEAA@XZ).
+Snake_player.obj : error LNK2001: неразрешенный внешний символ "__declspec(dllimport) public: virtual __cdecl sf::RectangleShape::~RectangleShape(void)" (__imp_??1RectangleShape@sf@@UEAA@XZ).
+Snake_player.obj : error LNK2019: ссылка на неразрешенный внешний символ "__declspec(dllimport) public: void __cdecl sf::RenderTarget::draw(class sf::Drawable const &,class sf::RenderStates const &)" (__imp_?draw@RenderTarget@sf@@QEAAXAEBVDrawable@2@AEBVRenderStates@2@@Z) в функции "wchar_t * __cdecl std::_Maklocstr<wchar_t>(char const *,wchar_t *,struct _Cvtvec const &)" (??$_Maklocstr@_W@std@@YAPEA_WPEBDPEA_WAEBU_Cvtvec@@@Z).
+Bot_Snake.obj : error LNK2001: неразрешенный внешний символ "__declspec(dllimport) public: void __cdecl sf::RenderTarget::draw(class sf::Drawable const &,class sf::RenderStates const &)" (__imp_?draw@RenderTarget@sf@@QEAAXAEBVDrawable@2@AEBVRenderStates@2@@Z).
+field.obj : error LNK2001: неразрешенный внешний символ "__declspec(dllimport) public: void __cdecl sf::RenderTarget::draw(class sf::Drawable const &,class sf::RenderStates const &)" (__imp_?draw@RenderTarget@sf@@QEAAXAEBVDrawable@2@AEBVRenderStates@2@@Z).
+food.obj : error LNK2001: неразрешенный внешний символ "__declspec(dllimport) public: void __cdecl sf::RenderTarget::draw(class sf::Drawable const &,class sf::RenderStates const &)" (__imp_?draw@RenderTarget@sf@@QEAAXAEBVDrawable@2@AEBVRenderStates@2@@Z).
+Game.obj : error LNK2001: неразрешенный внешний символ "__declspec(dllimport) public: void __cdecl sf::RenderTarget::draw(class sf::Drawable const &,class sf::RenderStates const &)" (__imp_?draw@RenderTarget@sf@@QEAAXAEBVDrawable@2@AEBVRenderStates@2@@Z).
+Snake_player.obj : error LNK2001: неразрешенный внешний символ "__declspec(dllimport) public: static class sf::RenderStates const sf::RenderStates::Default" (__imp_?Default@RenderStates@sf@@2V12@B).
+Bot_Snake.obj : error LNK2001: неразрешенный внешний символ "__declspec(dllimport) public: static class sf::RenderStates const sf::RenderStates::Default" (__imp_?Default@RenderStates@sf@@2V12@B).
+field.obj : error LNK2001: неразрешенный внешний символ "__declspec(dllimport) public: static class sf::RenderStates const sf::RenderStates::Default" (__imp_?Default@RenderStates@sf@@2V12@B).
+food.obj : error LNK2001: неразрешенный внешний символ "__declspec(dllimport) public: static class sf::RenderStates const sf::RenderStates::Default" (__imp_?Default@RenderStates@sf@@2V12@B).
+Game.obj : error LNK2001: неразрешенный внешний символ "__declspec(dllimport) public: static class sf::RenderStates const sf::RenderStates::Default" (__imp_?Default@RenderStates@sf@@2V12@B).
+Bot_Snake.obj : error LNK2019: ссылка на неразрешенный внешний символ "__declspec(dllimport) public: static class sf::Color const sf::Color::Black" (__imp_?Black@Color@sf@@2V12@B) в функции "public: void __cdecl Bot_Snake::draw_eyes_bot_snake(class sf::RenderWindow &,class field &)" (?draw_eyes_bot_snake@Bot_Snake@@QEAAXAEAVRenderWindow@sf@@AEAVfield@@@Z).
+Snake_player.obj : error LNK2001: неразрешенный внешний символ "__declspec(dllimport) public: static class sf::Color const sf::Color::Black" (__imp_?Black@Color@sf@@2V12@B).
+field.obj : error LNK2019: ссылка на неразрешенный внешний символ "__declspec(dllimport) public: void __cdecl sf::Transformable::rotate(float)" (__imp_?rotate@Transformable@sf@@QEAAXM@Z) в функции "public: void __cdecl field::draw_field_border(class sf::RenderWindow &,int,int)" (?draw_field_border@field@@QEAAXAEAVRenderWindow@sf@@HH@Z).
+food.obj : error LNK2019: ссылка на неразрешенный внешний символ "__declspec(dllimport) public: __cdecl sf::Texture::Texture(void)" (__imp_??0Texture@sf@@QEAA@XZ) в функции "public: void __cdecl food::draw_food(class sf::RenderWindow &,class field &)" (?draw_food@food@@QEAAXAEAVRenderWindow@sf@@AEAVfield@@@Z).
+Game.obj : error LNK2001: неразрешенный внешний символ "__declspec(dllimport) public: __cdecl sf::Texture::Texture(void)" (__imp_??0Texture@sf@@QEAA@XZ).
+food.obj : error LNK2019: ссылка на неразрешенный внешний символ "__declspec(dllimport) public: __cdecl sf::Texture::~Texture(void)" (__imp_??1Texture@sf@@QEAA@XZ) в функции "public: void __cdecl food::draw_food(class sf::RenderWindow &,class field &)" (?draw_food@food@@QEAAXAEAVRenderWindow@sf@@AEAVfield@@@Z).
+Game.obj : error LNK2001: неразрешенный внешний символ "__declspec(dllimport) public: __cdecl sf::Texture::~Texture(void)" (__imp_??1Texture@sf@@QEAA@XZ).
+food.obj : error LNK2019: ссылка на неразрешенный внешний символ "__declspec(dllimport) public: bool __cdecl sf::Texture::loadFromFile(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class sf::Rect<int> const &)" (__imp_?loadFromFile@Texture@sf@@QEAA_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV?$Rect@H@2@@Z) в функции "public: void __cdecl food::draw_food(class sf::RenderWindow &,class field &)" (?draw_food@food@@QEAAXAEAVRenderWindow@sf@@AEAVfield@@@Z).
+Game.obj : error LNK2001: неразрешенный внешний символ "__declspec(dllimport) public: bool __cdecl sf::Texture::loadFromFile(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class sf::Rect<int> const &)" (__imp_?loadFromFile@Texture@sf@@QEAA_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV?$Rect@H@2@@Z).
+food.obj : error LNK2019: ссылка на неразрешенный внешний символ "__declspec(dllimport) public: __cdecl sf::Sprite::Sprite(void)" (__imp_??0Sprite@sf@@QEAA@XZ) в функции "public: void __cdecl food::draw_food(class sf::RenderWindow &,class field &)" (?draw_food@food@@QEAAXAEAVRenderWindow@sf@@AEAVfield@@@Z).
+Game.obj : error LNK2001: неразрешенный внешний символ "__declspec(dllimport) public: __cdecl sf::Sprite::Sprite(void)" (__imp_??0Sprite@sf@@QEAA@XZ).
+food.obj : error LNK2019: ссылка на неразрешенный внешний символ "__declspec(dllimport) public: void __cdecl sf::Sprite::setTexture(class sf::Texture const &,bool)" (__imp_?setTexture@Sprite@sf@@QEAAXAEBVTexture@2@_N@Z) в функции "public: void __cdecl food::draw_food(class sf::RenderWindow &,class field &)" (?draw_food@food@@QEAAXAEAVRenderWindow@sf@@AEAVfield@@@Z).
+Game.obj : error LNK2001: неразрешенный внешний символ "__declspec(dllimport) public: void __cdecl sf::Sprite::setTexture(class sf::Texture const &,bool)" (__imp_?setTexture@Sprite@sf@@QEAAXAEBVTexture@2@_N@Z).
+food.obj : error LNK2019: ссылка на неразрешенный внешний символ "__declspec(dllimport) public: virtual __cdecl sf::Sprite::~Sprite(void)" (__imp_??1Sprite@sf@@UEAA@XZ) в функции "public: void __cdecl food::draw_food(class sf::RenderWindow &,class field &)" (?draw_food@food@@QEAAXAEAVRenderWindow@sf@@AEAVfield@@@Z).
+Game.obj : error LNK2001: неразрешенный внешний символ "__declspec(dllimport) public: virtual __cdecl sf::Sprite::~Sprite(void)" (__imp_??1Sprite@sf@@UEAA@XZ).
+Game.obj : error LNK2019: ссылка на неразрешенный внешний символ "__declspec(dllimport) class sf::Time __cdecl sf::milliseconds(int)" (__imp_?milliseconds@sf@@YA?AVTime@1@H@Z) в функции "void __cdecl Game(class sf::RenderWindow &)" (?Game@@YAXAEAVRenderWindow@sf@@@Z).
+Game.obj : error LNK2019: ссылка на неразрешенный внешний символ "__declspec(dllimport) protected: __cdecl sf::NonCopyable::NonCopyable(void)" (__imp_??0NonCopyable@sf@@IEAA@XZ) в функции "public: __cdecl sf::Thread::Thread<class Snake_player>(void (__cdecl Snake_player::*)(void),class Snake_player *)" (??$?0VSnake_player@@@Thread@sf@@QEAA@P8Snake_player@@EAAXXZPEAV2@@Z).
+Game.obj : error LNK2019: ссылка на неразрешенный внешний символ "__declspec(dllimport) protected: __cdecl sf::NonCopyable::~NonCopyable(void)" (__imp_??1NonCopyable@sf@@IEAA@XZ) в функции "int `public: __cdecl sf::Thread::Thread<class Snake_player>(void (__cdecl Snake_player::*)(void),class sf *)'::`1'::dtor$0" (?dtor$0@?0???$?0VSnake_player@@@Thread@sf@@QEAA@P8Snake_player@@EAAXXZPEAV2@@Z@4HA).
+Game.obj : error LNK2019: ссылка на неразрешенный внешний символ "__declspec(dllimport) void __cdecl sf::sleep(class sf::Time)" (__imp_?sleep@sf@@YAXVTime@1@@Z) в функции "void __cdecl Game(class sf::RenderWindow &)" (?Game@@YAXAEAVRenderWindow@sf@@@Z).
+Game.obj : error LNK2019: ссылка на неразрешенный внешний символ "__declspec(dllimport) public: __cdecl sf::String::String(char const *,class std::locale const &)" (__imp_??0String@sf@@QEAA@PEBDAEBVlocale@std@@@Z) в функции main.
+Game.obj : error LNK2019: ссылка на неразрешенный внешний символ "__declspec(dllimport) public: __cdecl sf::String::String(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::locale const &)" (__imp_??0String@sf@@QEAA@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBVlocale@3@@Z) в функции "public: class sf::Text __cdecl form::Button::displayText(void)" (?displayText@Button@form@@QEAA?AVText@sf@@XZ).
+Game.obj : error LNK2019: ссылка на неразрешенный внешний символ "__declspec(dllimport) public: __cdecl sf::String::~String(void)" (__imp_??1String@sf@@QEAA@XZ) в функции "public: class sf::Text __cdecl form::Button::displayText(void)" (?displayText@Button@form@@QEAA?AVText@sf@@XZ).
+Game.obj : error LNK2019: ссылка на неразрешенный внешний символ "__declspec(dllimport) public: __cdecl sf::Thread::~Thread(void)" (__imp_??1Thread@sf@@QEAA@XZ) в функции "void __cdecl Game(class sf::RenderWindow &)" (?Game@@YAXAEAVRenderWindow@sf@@@Z).
+Game.obj : error LNK2019: ссылка на неразрешенный внешний символ "__declspec(dllimport) public: void __cdecl sf::Thread::launch(void)" (__imp_?launch@Thread@sf@@QEAAXXZ) в функции "void __cdecl Game(class sf::RenderWindow &)" (?Game@@YAXAEAVRenderWindow@sf@@@Z).
+Game.obj : error LNK2019: ссылка на неразрешенный внешний символ "__declspec(dllimport) public: void __cdecl sf::Thread::terminate(void)" (__imp_?terminate@Thread@sf@@QEAAXXZ) в функции "void __cdecl Game(class sf::RenderWindow &)" (?Game@@YAXAEAVRenderWindow@sf@@@Z).
+Game.obj : error LNK2019: ссылка на неразрешенный внешний символ "__declspec(dllimport) public: static class sf::Vector2<int> __cdecl sf::Mouse::getPosition(class sf::Window const &)" (__imp_?getPosition@Mouse@sf@@SA?AV?$Vector2@H@2@AEBVWindow@2@@Z) в функции "void __cdecl Game(class sf::RenderWindow &)" (?Game@@YAXAEAVRenderWindow@sf@@@Z).
+Game.obj : error LNK2019: ссылка на неразрешенный внешний символ "__declspec(dllimport) public: __cdecl sf::VideoMode::VideoMode(unsigned int,unsigned int,unsigned int)" (__imp_??0VideoMode@sf@@QEAA@III@Z) в функции main.
+Game.obj : error LNK2019: ссылка на неразрешенный внешний символ "__declspec(dllimport) public: void __cdecl sf::Window::close(void)" (__imp_?close@Window@sf@@QEAAXXZ) в функции "void __cdecl Game(class sf::RenderWindow &)" (?Game@@YAXAEAVRenderWindow@sf@@@Z).
+Game.obj : error LNK2019: ссылка на неразрешенный внешний символ "__declspec(dllimport) public: bool __cdecl sf::Window::isOpen(void)const " (__imp_?isOpen@Window@sf@@QEBA_NXZ) в функции "void __cdecl Game(class sf::RenderWindow &)" (?Game@@YAXAEAVRenderWindow@sf@@@Z).
+Game.obj : error LNK2019: ссылка на неразрешенный внешний символ "__declspec(dllimport) public: bool __cdecl sf::Window::pollEvent(class sf::Event &)" (__imp_?pollEvent@Window@sf@@QEAA_NAEAVEvent@2@@Z) в функции "void __cdecl Game(class sf::RenderWindow &)" (?Game@@YAXAEAVRenderWindow@sf@@@Z).
+Game.obj : error LNK2019: ссылка на неразрешенный внешний символ "__declspec(dllimport) public: void __cdecl sf::Window::display(void)" (__imp_?display@Window@sf@@QEAAXXZ) в функции "void __cdecl Game(class sf::RenderWindow &)" (?Game@@YAXAEAVRenderWindow@sf@@@Z).
+Game.obj : error LNK2019: ссылка на неразрешенный внешний символ "__declspec(dllimport) public: __cdecl sf::Color::Color(void)" (__imp_??0Color@sf@@QEAA@XZ) в функции "public: __cdecl form::Button::Button(double,double,double,double,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class sf::Color,int)" (??0Button@form@@QEAA@NNNNV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@VColor@sf@@H@Z).
+Game.obj : error LNK2019: ссылка на неразрешенный внешний символ "__declspec(dllimport) public: void __cdecl sf::Shape::setOutlineColor(class sf::Color const &)" (__imp_?setOutlineColor@Shape@sf@@QEAAXAEBVColor@2@@Z) в функции "public: __cdecl form::Button::Button(double,double,double,double,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class sf::Color,int)" (??0Button@form@@QEAA@NNNNV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@VColor@sf@@H@Z).
+Game.obj : error LNK2019: ссылка на неразрешенный внешний символ "__declspec(dllimport) public: void __cdecl sf::Shape::setOutlineThickness(float)" (__imp_?setOutlineThickness@Shape@sf@@QEAAXM@Z) в функции "public: __cdecl form::Button::Button(double,double,double,double,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class sf::Color,int)" (??0Button@form@@QEAA@NNNNV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@VColor@sf@@H@Z).
+Game.obj : error LNK2019: ссылка на неразрешенный внешний символ "__declspec(dllimport) public: __cdecl sf::Font::Font(void)" (__imp_??0Font@sf@@QEAA@XZ) в функции "void __cdecl form::`dynamic initializer for 'None''(void)" (??__ENone@form@@YAXXZ).
+Game.obj : error LNK2019: ссылка на неразрешенный внешний символ "__declspec(dllimport) public: __cdecl sf::Font::~Font(void)" (__imp_??1Font@sf@@QEAA@XZ) в функции "void __cdecl form::`dynamic atexit destructor for 'None''(void)" (??__FNone@form@@YAXXZ).
+Game.obj : error LNK2019: ссылка на неразрешенный внешний символ "__declspec(dllimport) public: bool __cdecl sf::Font::loadFromFile(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (__imp_?loadFromFile@Font@sf@@QEAA_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) в функции "public: __cdecl form::Button::Button(double,double,double,double,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class sf::Color,int)" (??0Button@form@@QEAA@NNNNV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@VColor@sf@@H@Z).
+Game.obj : error LNK2019: ссылка на неразрешенный внешний символ "__declspec(dllimport) public: void __cdecl sf::RectangleShape::setSize(class sf::Vector2<float> const &)" (__imp_?setSize@RectangleShape@sf@@QEAAXAEBV?$Vector2@M@2@@Z) в функции "public: __cdecl form::Button::Button(double,double,double,double,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class sf::Color,int)" (??0Button@form@@QEAA@NNNNV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@VColor@sf@@H@Z).
+Game.obj : error LNK2019: ссылка на неразрешенный внешний символ "__declspec(dllimport) public: __cdecl sf::RectangleShape::RectangleShape(class sf::RectangleShape const &)" (__imp_??0RectangleShape@sf@@QEAA@AEBV01@@Z) в функции "public: class sf::RectangleShape __cdecl form::Button::displayButton(void)" (?displayButton@Button@form@@QEAA?AVRectangleShape@sf@@XZ).
+Game.obj : error LNK2019: ссылка на неразрешенный внешний символ "__declspec(dllimport) public: void __cdecl sf::RenderTarget::clear(class sf::Color const &)" (__imp_?clear@RenderTarget@sf@@QEAAXAEBVColor@2@@Z) в функции "void __cdecl Game(class sf::RenderWindow &)" (?Game@@YAXAEAVRenderWindow@sf@@@Z).
+Game.obj : error LNK2019: ссылка на неразрешенный внешний символ "__declspec(dllimport) public: __cdecl sf::RenderWindow::RenderWindow(class sf::VideoMode,class sf::String const &,unsigned int,struct sf::ContextSettings const &)" (__imp_??0RenderWindow@sf@@QEAA@VVideoMode@1@AEBVString@1@IAEBUContextSettings@1@@Z) в функции main.
+Game.obj : error LNK2019: ссылка на неразрешенный внешний символ "__declspec(dllimport) public: virtual __cdecl sf::RenderWindow::~RenderWindow(void)" (__imp_??1RenderWindow@sf@@UEAA@XZ) в функции main.
+Game.obj : error LNK2019: ссылка на неразрешенный внешний символ "__declspec(dllimport) public: class sf::Rect<float> __cdecl sf::Sprite::getGlobalBounds(void)const " (__imp_?getGlobalBounds@Sprite@sf@@QEBA?AV?$Rect@M@2@XZ) в функции "void __cdecl Game(class sf::RenderWindow &)" (?Game@@YAXAEAVRenderWindow@sf@@@Z).
+Game.obj : error LNK2019: ссылка на неразрешенный внешний символ "__declspec(dllimport) public: __cdecl sf::Text::Text(void)" (__imp_??0Text@sf@@QEAA@XZ) в функции "public: __cdecl form::Label::Label(double,double,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (??0Label@form@@QEAA@NNV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z).
+Game.obj : error LNK2019: ссылка на неразрешенный внешний символ "__declspec(dllimport) public: void __cdecl sf::Text::setString(class sf::String const &)" (__imp_?setString@Text@sf@@QEAAXAEBVString@2@@Z) в функции "public: class sf::Text __cdecl form::Button::displayText(void)" (?displayText@Button@form@@QEAA?AVText@sf@@XZ).
+Game.obj : error LNK2019: ссылка на неразрешенный внешний символ "__declspec(dllimport) public: void __cdecl sf::Text::setFont(class sf::Font const &)" (__imp_?setFont@Text@sf@@QEAAXAEBVFont@2@@Z) в функции "public: __cdecl form::Button::Button(double,double,double,double,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class sf::Color,int)" (??0Button@form@@QEAA@NNNNV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@VColor@sf@@H@Z).
+Game.obj : error LNK2019: ссылка на неразрешенный внешний символ "__declspec(dllimport) public: void __cdecl sf::Text::setCharacterSize(unsigned int)" (__imp_?setCharacterSize@Text@sf@@QEAAXI@Z) в функции "public: __cdecl form::Button::Button(double,double,double,double,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class sf::Color,int)" (??0Button@form@@QEAA@NNNNV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@VColor@sf@@H@Z).
+Game.obj : error LNK2019: ссылка на неразрешенный внешний символ "__declspec(dllimport) public: virtual __cdecl sf::Text::~Text(void)" (__imp_??1Text@sf@@UEAA@XZ) в функции "int `public: __cdecl form::Label::Label(double,double,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)'::`1'::dtor$2" (?dtor$2@?0???0Label@form@@QEAA@NNV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z@4HA).
+Game.obj : error LNK2019: ссылка на неразрешенный внешний символ "__declspec(dllimport) public: __cdecl sf::Text::Text(class sf::Text const &)" (__imp_??0Text@sf@@QEAA@AEBV01@@Z) в функции "public: class sf::Text __cdecl form::Button::displayText(void)" (?displayText@Button@form@@QEAA?AVText@sf@@XZ).
+Snake_player.obj : error LNK2019: ссылка на неразрешенный внешний символ "__declspec(dllimport) public: static bool __cdecl sf::Keyboard::isKeyPressed(enum sf::Keyboard::Key)" (__imp_?isKeyPressed@Keyboard@sf@@SA_NW4Key@12@@Z) в функции "public: void __cdecl Snake_player::change_direction_player_snake(void)" (?change_direction_player_snake@Snake_player@@QEAAXXZ).
+Snake_player.obj : error LNK2019: ссылка на неразрешенный внешний символ "__declspec(dllimport) public: static class sf::Color const sf::Color::Red" (__imp_?Red@Color@sf@@2V12@B) в функции "public: void __cdecl Snake_player::draw_player_snake(class sf::RenderWindow &,class field &)" (?draw_player_snake@Snake_player@@QEAAXAEAVRenderWindow@sf@@AEAVfield@@@Z).
+D:\vs_project\bin\SFML-2.5.1\lib\sfml-graphics-d.lib : warning LNK4272: тип компьютера библиотеки "x86" конфликтует с типом целевого компьютера "x64"
+D:\vs_project\bin\SFML-2.5.1\lib\sfml-window-d.lib : warning LNK4272: тип компьютера библиотеки "x86" конфликтует с типом целевого компьютера "x64"
+D:\vs_project\bin\SFML-2.5.1\lib\sfml-system-d.lib : warning LNK4272: тип компьютера библиотеки "x86" конфликтует с типом целевого компьютера "x64"
+D:\vs_project\bin\SFML-2.5.1\lib\sfml-audio-d.lib : warning LNK4272: тип компьютера библиотеки "x86" конфликтует с типом целевого компьютера "x64"
+D:\vs_project\project_game_snake_sfml\Sbake_SFML\x64\Debug\Sbake_SFML.exe : fatal error LNK1120: неразрешенных внешних элементов: 54

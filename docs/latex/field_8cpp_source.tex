@@ -1,0 +1,70 @@
+\hypertarget{field_8cpp_source}{}\doxysection{field.\+cpp}
+\label{field_8cpp_source}\index{Sbake\_SFML/field.cpp@{Sbake\_SFML/field.cpp}}
+\mbox{\hyperlink{field_8cpp}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\Hypertarget{field_8cpp_source_l00001}00001 \textcolor{preprocessor}{\#include "{}\mbox{\hyperlink{field_8h}{field.h}}"{}}}
+\DoxyCodeLine{\Hypertarget{field_8cpp_source_l00002}00002 \textcolor{preprocessor}{\#include <SFML/Graphics.hpp>}}
+\DoxyCodeLine{\Hypertarget{field_8cpp_source_l00003}00003 }
+\DoxyCodeLine{\Hypertarget{field_8cpp_source_l00004}00004 \textcolor{comment}{/*}}
+\DoxyCodeLine{\Hypertarget{field_8cpp_source_l00005}00005 \textcolor{comment}{void field::draw\_field(sf::RenderWindow\& window, int width, int height) \{}}
+\DoxyCodeLine{\Hypertarget{field_8cpp_source_l00006}00006 \textcolor{comment}{    for (int ii = 20; ii <= width -\/ 20; ii += 20) \{ // горизонтальные}}
+\DoxyCodeLine{\Hypertarget{field_8cpp_source_l00007}00007 \textcolor{comment}{        sf::RectangleShape line(sf::Vector2f(width -\/ 40, 1));}}
+\DoxyCodeLine{\Hypertarget{field_8cpp_source_l00008}00008 \textcolor{comment}{        line.setFillColor(sf::Color::Green);}}
+\DoxyCodeLine{\Hypertarget{field_8cpp_source_l00009}00009 \textcolor{comment}{        line.setPosition(20, ii);}}
+\DoxyCodeLine{\Hypertarget{field_8cpp_source_l00010}00010 \textcolor{comment}{        line.rotate(0);}}
+\DoxyCodeLine{\Hypertarget{field_8cpp_source_l00011}00011 \textcolor{comment}{        window.draw(line);}}
+\DoxyCodeLine{\Hypertarget{field_8cpp_source_l00012}00012 \textcolor{comment}{    \}}}
+\DoxyCodeLine{\Hypertarget{field_8cpp_source_l00013}00013 \textcolor{comment}{    for (int ii = 20; ii <= height -\/ 20; ii += 20) \{ // вертикальные}}
+\DoxyCodeLine{\Hypertarget{field_8cpp_source_l00014}00014 \textcolor{comment}{        sf::RectangleShape line(sf::Vector2f(height -\/ 40, 1));}}
+\DoxyCodeLine{\Hypertarget{field_8cpp_source_l00015}00015 \textcolor{comment}{        line.setFillColor(sf::Color::Green);}}
+\DoxyCodeLine{\Hypertarget{field_8cpp_source_l00016}00016 \textcolor{comment}{        line.setPosition(ii, 20);}}
+\DoxyCodeLine{\Hypertarget{field_8cpp_source_l00017}00017 \textcolor{comment}{        line.rotate(90);}}
+\DoxyCodeLine{\Hypertarget{field_8cpp_source_l00018}00018 \textcolor{comment}{        window.draw(line);}}
+\DoxyCodeLine{\Hypertarget{field_8cpp_source_l00019}00019 \textcolor{comment}{    \}}}
+\DoxyCodeLine{\Hypertarget{field_8cpp_source_l00020}00020 \textcolor{comment}{\}}}
+\DoxyCodeLine{\Hypertarget{field_8cpp_source_l00021}00021 \textcolor{comment}{*/}}
+\DoxyCodeLine{\Hypertarget{field_8cpp_source_l00022}00022 }
+\DoxyCodeLine{\Hypertarget{field_8cpp_source_l00023}\mbox{\hyperlink{classfield_a194a217eab42f458a6db7be1fc1eed3a}{00023}} \textcolor{keywordtype}{void} \mbox{\hyperlink{classfield_a194a217eab42f458a6db7be1fc1eed3a}{field::draw\_field}}(sf::RenderWindow\& window, \mbox{\hyperlink{classfield}{field}} \&\mbox{\hyperlink{classfield}{field}}) \{}
+\DoxyCodeLine{\Hypertarget{field_8cpp_source_l00024}00024     sf::RectangleShape line(sf::Vector2f(30, 30));}
+\DoxyCodeLine{\Hypertarget{field_8cpp_source_l00025}00025     \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} ii = 1; ii < 31; ++ii) \{}
+\DoxyCodeLine{\Hypertarget{field_8cpp_source_l00026}00026         \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} jj = 1; jj < 31; ++jj) \{}
+\DoxyCodeLine{\Hypertarget{field_8cpp_source_l00027}00027             \textcolor{keywordflow}{if} ((jj + ii) \% 2 == 0) \{}
+\DoxyCodeLine{\Hypertarget{field_8cpp_source_l00028}00028                 line.setFillColor(sf::Color(41, 228, 45));}
+\DoxyCodeLine{\Hypertarget{field_8cpp_source_l00029}00029             \}}
+\DoxyCodeLine{\Hypertarget{field_8cpp_source_l00030}00030             \textcolor{keywordflow}{else} \{}
+\DoxyCodeLine{\Hypertarget{field_8cpp_source_l00031}00031                 line.setFillColor(sf::Color(41, 158, 45));}
+\DoxyCodeLine{\Hypertarget{field_8cpp_source_l00032}00032             \}}
+\DoxyCodeLine{\Hypertarget{field_8cpp_source_l00033}00033             line.setPosition(\mbox{\hyperlink{classfield}{field}}.\mbox{\hyperlink{classfield_a4aef8a1134e9242189f4718b6ad5dbf2}{coord\_cell}}[ii][jj].\mbox{\hyperlink{structfield_1_1cell_aa36c4bb4d276f6def9e45f1d2ec2127f}{coord\_x}}, \mbox{\hyperlink{classfield}{field}}.\mbox{\hyperlink{classfield_a4aef8a1134e9242189f4718b6ad5dbf2}{coord\_cell}}[ii][jj].\mbox{\hyperlink{structfield_1_1cell_a329ffb1ecdee8c45c5c9931563e24f78}{coord\_y}});}
+\DoxyCodeLine{\Hypertarget{field_8cpp_source_l00034}00034             window.draw(line);}
+\DoxyCodeLine{\Hypertarget{field_8cpp_source_l00035}00035         \}}
+\DoxyCodeLine{\Hypertarget{field_8cpp_source_l00036}00036     \}}
+\DoxyCodeLine{\Hypertarget{field_8cpp_source_l00037}00037 \}}
+\DoxyCodeLine{\Hypertarget{field_8cpp_source_l00038}00038 }
+\DoxyCodeLine{\Hypertarget{field_8cpp_source_l00039}00039 }
+\DoxyCodeLine{\Hypertarget{field_8cpp_source_l00040}\mbox{\hyperlink{classfield_a4c12640ca705508e4e1e0a72af07cbf4}{00040}} \textcolor{keywordtype}{void} \mbox{\hyperlink{classfield_a4c12640ca705508e4e1e0a72af07cbf4}{field::draw\_field\_border}}(sf::RenderWindow\& window, \textcolor{keywordtype}{int} width, \textcolor{keywordtype}{int} height) \{}
+\DoxyCodeLine{\Hypertarget{field_8cpp_source_l00041}00041     sf::RectangleShape line(sf::Vector2f(\mbox{\hyperlink{classfield_a7fd1054f3ae863a82709f0b7a961fe31}{height}}, 30));}
+\DoxyCodeLine{\Hypertarget{field_8cpp_source_l00042}00042     line.setFillColor(sf::Color(41, 63, 45));}
+\DoxyCodeLine{\Hypertarget{field_8cpp_source_l00043}00043     line.setPosition(0, 0);}
+\DoxyCodeLine{\Hypertarget{field_8cpp_source_l00044}00044     line.rotate(0);}
+\DoxyCodeLine{\Hypertarget{field_8cpp_source_l00045}00045     window.draw(line);}
+\DoxyCodeLine{\Hypertarget{field_8cpp_source_l00046}00046 }
+\DoxyCodeLine{\Hypertarget{field_8cpp_source_l00047}00047     sf::RectangleShape line2(sf::Vector2f(\mbox{\hyperlink{classfield_a7fd1054f3ae863a82709f0b7a961fe31}{height}}, 30));}
+\DoxyCodeLine{\Hypertarget{field_8cpp_source_l00048}00048     line2.setFillColor(sf::Color(41, 63, 45));}
+\DoxyCodeLine{\Hypertarget{field_8cpp_source_l00049}00049     line2.setPosition(0, 930);}
+\DoxyCodeLine{\Hypertarget{field_8cpp_source_l00050}00050     line2.rotate(0);}
+\DoxyCodeLine{\Hypertarget{field_8cpp_source_l00051}00051     window.draw(line2);}
+\DoxyCodeLine{\Hypertarget{field_8cpp_source_l00052}00052 }
+\DoxyCodeLine{\Hypertarget{field_8cpp_source_l00053}00053     sf::RectangleShape line3(sf::Vector2f(\mbox{\hyperlink{classfield_a7fd1054f3ae863a82709f0b7a961fe31}{height}} -\/ 20, 30));}
+\DoxyCodeLine{\Hypertarget{field_8cpp_source_l00054}00054     line3.setFillColor(sf::Color(41, 63, 45));}
+\DoxyCodeLine{\Hypertarget{field_8cpp_source_l00055}00055     line3.setPosition(30, 20);}
+\DoxyCodeLine{\Hypertarget{field_8cpp_source_l00056}00056     line3.rotate(90);}
+\DoxyCodeLine{\Hypertarget{field_8cpp_source_l00057}00057     window.draw(line3);}
+\DoxyCodeLine{\Hypertarget{field_8cpp_source_l00058}00058     }
+\DoxyCodeLine{\Hypertarget{field_8cpp_source_l00059}00059     sf::RectangleShape line4(sf::Vector2f(\mbox{\hyperlink{classfield_a7fd1054f3ae863a82709f0b7a961fe31}{height}}, 30));}
+\DoxyCodeLine{\Hypertarget{field_8cpp_source_l00060}00060     line4.setFillColor(sf::Color(41, 63, 45));}
+\DoxyCodeLine{\Hypertarget{field_8cpp_source_l00061}00061     line4.setPosition(960, 0);}
+\DoxyCodeLine{\Hypertarget{field_8cpp_source_l00062}00062     line4.rotate(90);}
+\DoxyCodeLine{\Hypertarget{field_8cpp_source_l00063}00063     window.draw(line4);}
+\DoxyCodeLine{\Hypertarget{field_8cpp_source_l00064}00064 \}}
+
+\end{DoxyCode}

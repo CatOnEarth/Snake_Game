@@ -1,0 +1,226 @@
+\hypertarget{class_snake__player}{}\doxysection{Snake\+\_\+player Class Reference}
+\label{class_snake__player}\index{Snake\_player@{Snake\_player}}
+
+
+{\ttfamily \#include $<$Snake\+\_\+player.\+h$>$}
+
+
+
+Collaboration diagram for Snake\+\_\+player\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=204pt]{class_snake__player__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{struct_snake__player_1_1cell}{cell}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_snake__player_ae435c5ef632d21463723102549780c4d}{change\+\_\+direction\+\_\+player\+\_\+snake}} (void)
+\item 
+void \mbox{\hyperlink{class_snake__player_a0f74c5eecaaa1dfbf4886451c970ef00}{move\+\_\+player\+\_\+snake}} (sf\+::\+Render\+Window \&window, \mbox{\hyperlink{classfield}{field}} \&\mbox{\hyperlink{classfield}{field}}, bool \&\mbox{\hyperlink{_game_8cpp_a144e9dfc75532c34c7fe4c34b55e78fa}{Is\+\_\+\+Player\+\_\+loose}})
+\item 
+void \mbox{\hyperlink{class_snake__player_a987127daf3f98fd00891176030903bcc}{draw\+\_\+player\+\_\+snake}} (sf\+::\+Render\+Window \&window, \mbox{\hyperlink{classfield}{field}} \&\mbox{\hyperlink{classfield}{field}})
+\item 
+void \mbox{\hyperlink{class_snake__player_a347268d7cfee0cff219fa62ecbdabe1a}{draw\+\_\+eyes\+\_\+player\+\_\+snake}} (sf\+::\+Render\+Window \&window, \mbox{\hyperlink{classfield}{field}} \&\mbox{\hyperlink{classfield}{field}})
+\item 
+void \mbox{\hyperlink{class_snake__player_a48b7cd11dfc50849cc426b5eedf7a770}{eat\+\_\+food\+\_\+player\+\_\+snake}} (\mbox{\hyperlink{classfood}{food}} \&\mbox{\hyperlink{classfood}{food}}, \mbox{\hyperlink{classfield}{field}} \&\mbox{\hyperlink{classfield}{field}})
+\item 
+void \mbox{\hyperlink{class_snake__player_a4f70be268fdc90ad617e2e83539935b0}{grow\+\_\+player\+\_\+snake}} (\mbox{\hyperlink{classfield}{field}} \&\mbox{\hyperlink{classfield}{field}})
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{class_snake__player_ae87aa46f84d0298de7310c6f98c7bb3d}{length\+\_\+snake}} = 3
+\item 
+int \mbox{\hyperlink{class_snake__player_a8d19f8b5b967a664582fc71c5d7ed365}{now\+\_\+direction}} = 1
+\item 
+bool \mbox{\hyperlink{class_snake__player_aa7f708969a4642bb4794085bb53dc46a}{is\+\_\+thread\+\_\+start}}
+\item 
+\mbox{\hyperlink{struct_snake__player_1_1cell}{cell}} \mbox{\hyperlink{class_snake__player_a0aaff708fab8a569da1e62bdf7bd1d9f}{prev\+\_\+position\+\_\+tail}}
+\item 
+\mbox{\hyperlink{struct_snake__player_1_1cell}{cell}} \mbox{\hyperlink{class_snake__player_a1adb597f48afed3a6a2611f6851c1778}{num\+\_\+cell\+\_\+snake}} \mbox{[}900\mbox{]}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+
+
+Definition at line \mbox{\hyperlink{_snake__player_8h_source_l00005}{5}} of file \mbox{\hyperlink{_snake__player_8h_source}{Snake\+\_\+player.\+h}}.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_snake__player_ae435c5ef632d21463723102549780c4d}\label{class_snake__player_ae435c5ef632d21463723102549780c4d}} 
+\index{Snake\_player@{Snake\_player}!change\_direction\_player\_snake@{change\_direction\_player\_snake}}
+\index{change\_direction\_player\_snake@{change\_direction\_player\_snake}!Snake\_player@{Snake\_player}}
+\doxysubsubsection{\texorpdfstring{change\_direction\_player\_snake()}{change\_direction\_player\_snake()}}
+{\footnotesize\ttfamily void Snake\+\_\+player\+::change\+\_\+direction\+\_\+player\+\_\+snake (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line \mbox{\hyperlink{_snake__player_8cpp_source_l00048}{48}} of file \mbox{\hyperlink{_snake__player_8cpp_source}{Snake\+\_\+player.\+cpp}}.
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake__player_ae435c5ef632d21463723102549780c4d_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_snake__player_a347268d7cfee0cff219fa62ecbdabe1a}\label{class_snake__player_a347268d7cfee0cff219fa62ecbdabe1a}} 
+\index{Snake\_player@{Snake\_player}!draw\_eyes\_player\_snake@{draw\_eyes\_player\_snake}}
+\index{draw\_eyes\_player\_snake@{draw\_eyes\_player\_snake}!Snake\_player@{Snake\_player}}
+\doxysubsubsection{\texorpdfstring{draw\_eyes\_player\_snake()}{draw\_eyes\_player\_snake()}}
+{\footnotesize\ttfamily void Snake\+\_\+player\+::draw\+\_\+eyes\+\_\+player\+\_\+snake (\begin{DoxyParamCaption}\item[{sf\+::\+Render\+Window \&}]{window,  }\item[{\mbox{\hyperlink{classfield}{field}} \&}]{field }\end{DoxyParamCaption})}
+
+
+
+Definition at line \mbox{\hyperlink{_snake__player_8cpp_source_l00018}{18}} of file \mbox{\hyperlink{_snake__player_8cpp_source}{Snake\+\_\+player.\+cpp}}.
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=339pt]{class_snake__player_a347268d7cfee0cff219fa62ecbdabe1a_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_snake__player_a987127daf3f98fd00891176030903bcc}\label{class_snake__player_a987127daf3f98fd00891176030903bcc}} 
+\index{Snake\_player@{Snake\_player}!draw\_player\_snake@{draw\_player\_snake}}
+\index{draw\_player\_snake@{draw\_player\_snake}!Snake\_player@{Snake\_player}}
+\doxysubsubsection{\texorpdfstring{draw\_player\_snake()}{draw\_player\_snake()}}
+{\footnotesize\ttfamily void Snake\+\_\+player\+::draw\+\_\+player\+\_\+snake (\begin{DoxyParamCaption}\item[{sf\+::\+Render\+Window \&}]{window,  }\item[{\mbox{\hyperlink{classfield}{field}} \&}]{field }\end{DoxyParamCaption})}
+
+
+
+Definition at line \mbox{\hyperlink{_snake__player_8cpp_source_l00008}{8}} of file \mbox{\hyperlink{_snake__player_8cpp_source}{Snake\+\_\+player.\+cpp}}.
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=335pt]{class_snake__player_a987127daf3f98fd00891176030903bcc_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_snake__player_a48b7cd11dfc50849cc426b5eedf7a770}\label{class_snake__player_a48b7cd11dfc50849cc426b5eedf7a770}} 
+\index{Snake\_player@{Snake\_player}!eat\_food\_player\_snake@{eat\_food\_player\_snake}}
+\index{eat\_food\_player\_snake@{eat\_food\_player\_snake}!Snake\_player@{Snake\_player}}
+\doxysubsubsection{\texorpdfstring{eat\_food\_player\_snake()}{eat\_food\_player\_snake()}}
+{\footnotesize\ttfamily void Snake\+\_\+player\+::eat\+\_\+food\+\_\+player\+\_\+snake (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classfood}{food}} \&}]{food,  }\item[{\mbox{\hyperlink{classfield}{field}} \&}]{field }\end{DoxyParamCaption})}
+
+
+
+Definition at line \mbox{\hyperlink{_snake__player_8cpp_source_l00137}{137}} of file \mbox{\hyperlink{_snake__player_8cpp_source}{Snake\+\_\+player.\+cpp}}.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=337pt]{class_snake__player_a48b7cd11dfc50849cc426b5eedf7a770_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake__player_a48b7cd11dfc50849cc426b5eedf7a770_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_snake__player_a4f70be268fdc90ad617e2e83539935b0}\label{class_snake__player_a4f70be268fdc90ad617e2e83539935b0}} 
+\index{Snake\_player@{Snake\_player}!grow\_player\_snake@{grow\_player\_snake}}
+\index{grow\_player\_snake@{grow\_player\_snake}!Snake\_player@{Snake\_player}}
+\doxysubsubsection{\texorpdfstring{grow\_player\_snake()}{grow\_player\_snake()}}
+{\footnotesize\ttfamily void Snake\+\_\+player\+::grow\+\_\+player\+\_\+snake (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classfield}{field}} \&}]{field }\end{DoxyParamCaption})}
+
+
+
+Definition at line \mbox{\hyperlink{_snake__player_8cpp_source_l00149}{149}} of file \mbox{\hyperlink{_snake__player_8cpp_source}{Snake\+\_\+player.\+cpp}}.
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_snake__player_a4f70be268fdc90ad617e2e83539935b0_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_snake__player_a0f74c5eecaaa1dfbf4886451c970ef00}\label{class_snake__player_a0f74c5eecaaa1dfbf4886451c970ef00}} 
+\index{Snake\_player@{Snake\_player}!move\_player\_snake@{move\_player\_snake}}
+\index{move\_player\_snake@{move\_player\_snake}!Snake\_player@{Snake\_player}}
+\doxysubsubsection{\texorpdfstring{move\_player\_snake()}{move\_player\_snake()}}
+{\footnotesize\ttfamily void Snake\+\_\+player\+::move\+\_\+player\+\_\+snake (\begin{DoxyParamCaption}\item[{sf\+::\+Render\+Window \&}]{window,  }\item[{\mbox{\hyperlink{classfield}{field}} \&}]{field,  }\item[{bool \&}]{Is\+\_\+\+Player\+\_\+loose }\end{DoxyParamCaption})}
+
+
+
+Definition at line \mbox{\hyperlink{_snake__player_8cpp_source_l00080}{80}} of file \mbox{\hyperlink{_snake__player_8cpp_source}{Snake\+\_\+player.\+cpp}}.
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=337pt]{class_snake__player_a0f74c5eecaaa1dfbf4886451c970ef00_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_snake__player_aa7f708969a4642bb4794085bb53dc46a}\label{class_snake__player_aa7f708969a4642bb4794085bb53dc46a}} 
+\index{Snake\_player@{Snake\_player}!is\_thread\_start@{is\_thread\_start}}
+\index{is\_thread\_start@{is\_thread\_start}!Snake\_player@{Snake\_player}}
+\doxysubsubsection{\texorpdfstring{is\_thread\_start}{is\_thread\_start}}
+{\footnotesize\ttfamily bool Snake\+\_\+player\+::is\+\_\+thread\+\_\+start}
+
+
+
+Definition at line \mbox{\hyperlink{_snake__player_8h_source_l00015}{15}} of file \mbox{\hyperlink{_snake__player_8h_source}{Snake\+\_\+player.\+h}}.
+
+\mbox{\Hypertarget{class_snake__player_ae87aa46f84d0298de7310c6f98c7bb3d}\label{class_snake__player_ae87aa46f84d0298de7310c6f98c7bb3d}} 
+\index{Snake\_player@{Snake\_player}!length\_snake@{length\_snake}}
+\index{length\_snake@{length\_snake}!Snake\_player@{Snake\_player}}
+\doxysubsubsection{\texorpdfstring{length\_snake}{length\_snake}}
+{\footnotesize\ttfamily int Snake\+\_\+player\+::length\+\_\+snake = 3}
+
+
+
+Definition at line \mbox{\hyperlink{_snake__player_8h_source_l00013}{13}} of file \mbox{\hyperlink{_snake__player_8h_source}{Snake\+\_\+player.\+h}}.
+
+\mbox{\Hypertarget{class_snake__player_a8d19f8b5b967a664582fc71c5d7ed365}\label{class_snake__player_a8d19f8b5b967a664582fc71c5d7ed365}} 
+\index{Snake\_player@{Snake\_player}!now\_direction@{now\_direction}}
+\index{now\_direction@{now\_direction}!Snake\_player@{Snake\_player}}
+\doxysubsubsection{\texorpdfstring{now\_direction}{now\_direction}}
+{\footnotesize\ttfamily int Snake\+\_\+player\+::now\+\_\+direction = 1}
+
+
+
+Definition at line \mbox{\hyperlink{_snake__player_8h_source_l00014}{14}} of file \mbox{\hyperlink{_snake__player_8h_source}{Snake\+\_\+player.\+h}}.
+
+\mbox{\Hypertarget{class_snake__player_a1adb597f48afed3a6a2611f6851c1778}\label{class_snake__player_a1adb597f48afed3a6a2611f6851c1778}} 
+\index{Snake\_player@{Snake\_player}!num\_cell\_snake@{num\_cell\_snake}}
+\index{num\_cell\_snake@{num\_cell\_snake}!Snake\_player@{Snake\_player}}
+\doxysubsubsection{\texorpdfstring{num\_cell\_snake}{num\_cell\_snake}}
+{\footnotesize\ttfamily \mbox{\hyperlink{struct_snake__player_1_1cell}{cell}} Snake\+\_\+player\+::num\+\_\+cell\+\_\+snake\mbox{[}900\mbox{]}}
+
+
+
+Definition at line \mbox{\hyperlink{_snake__player_8h_source_l00017}{17}} of file \mbox{\hyperlink{_snake__player_8h_source}{Snake\+\_\+player.\+h}}.
+
+\mbox{\Hypertarget{class_snake__player_a0aaff708fab8a569da1e62bdf7bd1d9f}\label{class_snake__player_a0aaff708fab8a569da1e62bdf7bd1d9f}} 
+\index{Snake\_player@{Snake\_player}!prev\_position\_tail@{prev\_position\_tail}}
+\index{prev\_position\_tail@{prev\_position\_tail}!Snake\_player@{Snake\_player}}
+\doxysubsubsection{\texorpdfstring{prev\_position\_tail}{prev\_position\_tail}}
+{\footnotesize\ttfamily \mbox{\hyperlink{struct_snake__player_1_1cell}{cell}} Snake\+\_\+player\+::prev\+\_\+position\+\_\+tail}
+
+
+
+Definition at line \mbox{\hyperlink{_snake__player_8h_source_l00016}{16}} of file \mbox{\hyperlink{_snake__player_8h_source}{Snake\+\_\+player.\+h}}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Sbake\+\_\+\+SFML/\mbox{\hyperlink{_snake__player_8h}{Snake\+\_\+player.\+h}}\item 
+Sbake\+\_\+\+SFML/\mbox{\hyperlink{_snake__player_8cpp}{Snake\+\_\+player.\+cpp}}\end{DoxyCompactItemize}

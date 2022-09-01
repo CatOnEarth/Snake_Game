@@ -1,0 +1,182 @@
+﻿  Game.cpp
+F:\vs_project\Sbake_SFML\Sbake_SFML\FormSFML.h(34,23): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+F:\vs_project\Sbake_SFML\Sbake_SFML\FormSFML.h(34,20): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+F:\vs_project\Sbake_SFML\Sbake_SFML\FormSFML.h(67,23): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+F:\vs_project\Sbake_SFML\Sbake_SFML\FormSFML.h(67,20): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+F:\vs_project\Sbake_SFML\Sbake_SFML\FormSFML.h(69,32): warning C4244: аргумент: преобразование "double" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+F:\vs_project\Sbake_SFML\Sbake_SFML\FormSFML.h(69,25): warning C4244: аргумент: преобразование "double" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+F:\vs_project\Sbake_SFML\Sbake_SFML\FormSFML.h(70,23): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+F:\vs_project\Sbake_SFML\Sbake_SFML\FormSFML.h(70,20): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+F:\vs_project\Sbake_SFML\Sbake_SFML\FormSFML.h(116,23): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+F:\vs_project\Sbake_SFML\Sbake_SFML\FormSFML.h(116,20): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+F:\vs_project\Sbake_SFML\Sbake_SFML\FormSFML.h(118,32): warning C4244: аргумент: преобразование "double" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+F:\vs_project\Sbake_SFML\Sbake_SFML\FormSFML.h(118,25): warning C4244: аргумент: преобразование "double" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+F:\vs_project\Sbake_SFML\Sbake_SFML\FormSFML.h(119,23): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+F:\vs_project\Sbake_SFML\Sbake_SFML\FormSFML.h(119,20): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+F:\vs_project\Sbake_SFML\Sbake_SFML\Game.cpp(68,74): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+F:\vs_project\Sbake_SFML\Sbake_SFML\Game.cpp(68,61): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+F:\vs_project\Sbake_SFML\Sbake_SFML\Game.cpp(73,76): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+F:\vs_project\Sbake_SFML\Sbake_SFML\Game.cpp(73,63): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+F:\vs_project\Sbake_SFML\Sbake_SFML\Game.cpp(78,77): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+F:\vs_project\Sbake_SFML\Sbake_SFML\Game.cpp(78,64): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+F:\vs_project\Sbake_SFML\Sbake_SFML\Game.cpp(96,72): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+F:\vs_project\Sbake_SFML\Sbake_SFML\Game.cpp(96,59): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+F:\vs_project\Sbake_SFML\Sbake_SFML\Game.cpp(101,74): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+F:\vs_project\Sbake_SFML\Sbake_SFML\Game.cpp(101,61): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+F:\vs_project\Sbake_SFML\Sbake_SFML\Game.cpp(245,73): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+F:\vs_project\Sbake_SFML\Sbake_SFML\Game.cpp(245,60): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+F:\vs_project\Sbake_SFML\Sbake_SFML\Game.cpp(249,77): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+F:\vs_project\Sbake_SFML\Sbake_SFML\Game.cpp(249,64): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+F:\vs_project\Sbake_SFML\Sbake_SFML\Game.cpp(254,76): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+F:\vs_project\Sbake_SFML\Sbake_SFML\Game.cpp(254,63): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+F:\vs_project\Sbake_SFML\Sbake_SFML\Game.cpp(427,13): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+  Создание кода
+  1 of 257 functions ( 0.4%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    1 functions had inline decision re-evaluated but remain unchanged
+  Создание кода завершено
+  Sbake_SFML.vcxproj -> F:\vs_project\Sbake_SFML\Release\Sbake_SFML.exe

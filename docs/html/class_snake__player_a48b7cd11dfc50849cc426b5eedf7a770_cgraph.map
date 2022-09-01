@@ -1,0 +1,5 @@
+<map id="Snake_player::eat_food_player_snake" name="Snake_player::eat_food_player_snake">
+<area shape="rect" id="node1" title=" " alt="" coords="5,27,164,69"/>
+<area shape="rect" id="node2" href="$classfood.html#a4378465913a0b36ac7ed8d7f0ac9119b" title=" " alt="" coords="220,5,340,32"/>
+<area shape="rect" id="node3" href="$class_snake__player.html#a4f70be268fdc90ad617e2e83539935b0" title=" " alt="" coords="212,57,348,98"/>
+</map>

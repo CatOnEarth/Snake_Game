@@ -1,0 +1,207 @@
+\hypertarget{_game_8cpp}{}\doxysection{Sbake\+\_\+\+SFML/\+Game.cpp File Reference}
+\label{_game_8cpp}\index{Sbake\_SFML/Game.cpp@{Sbake\_SFML/Game.cpp}}
+{\ttfamily \#include $<$SFML/\+Graphics.\+hpp$>$}\newline
+{\ttfamily \#include $<$thread$>$}\newline
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include \char`\"{}Snake\+\_\+player.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}field.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}food.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Bot\+\_\+\+Snake.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Form\+SFML.\+h\char`\"{}}\newline
+{\ttfamily \#include $<$fstream$>$}\newline
+{\ttfamily \#include $<$string$>$}\newline
+Include dependency graph for Game.\+cpp\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{_game_8cpp__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{_game_8cpp_ae11b06ec8a74f4410b7666e026676784}{Player\+\_\+\+Record\+\_\+\+Update}} ()
+\item 
+int \mbox{\hyperlink{_game_8cpp_a358776b7e836a92ce16c8069f61d7b72}{Game\+\_\+\+Pause}} (Render\+Window \&window, Event \&event, bool \&Is\+\_\+\+Game\+\_\+pause, Sprite \&button\+\_\+restart, Sprite \&button\+\_\+back, Sprite \&pause\+\_\+button, Thread \&thread\+\_\+\+Change\+Direction)
+\item 
+void \mbox{\hyperlink{_game_8cpp_af1b534246ebb60258d63ab0fd9e97bfd}{Game}} (Render\+Window \&window)
+\item 
+int \mbox{\hyperlink{_game_8cpp_a2b814351b72b797a34133c3e238a4261}{loose\+\_\+game}} (Render\+Window \&window)
+\item 
+void \mbox{\hyperlink{_game_8cpp_acdef7a1fd863a6d3770c1268cb06add3}{main}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{_game_8cpp_a35833e3bddad980cad8e544e5cdb4539}{Is\+\_\+\+Game\+\_\+end}} = false
+\item 
+bool \mbox{\hyperlink{_game_8cpp_a144e9dfc75532c34c7fe4c34b55e78fa}{Is\+\_\+\+Player\+\_\+loose}} = false
+\item 
+bool \mbox{\hyperlink{_game_8cpp_a35cb308da6d1d5612150c57ae83be757}{Is\+\_\+\+Bot\+\_\+loose}} = false
+\item 
+int \mbox{\hyperlink{_game_8cpp_a771836c6788d8a0c09b5ce6da5f144b8}{Total\+\_\+\+Score\+\_\+\+Player}} = 0
+\item 
+int \mbox{\hyperlink{_game_8cpp_ad01ec4e63e39de8a58f4d33ecf665b46}{Total\+\_\+\+Score\+\_\+\+Bot}} = 0
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{_game_8cpp_af1b534246ebb60258d63ab0fd9e97bfd}\label{_game_8cpp_af1b534246ebb60258d63ab0fd9e97bfd}} 
+\index{Game.cpp@{Game.cpp}!Game@{Game}}
+\index{Game@{Game}!Game.cpp@{Game.cpp}}
+\doxysubsubsection{\texorpdfstring{Game()}{Game()}}
+{\footnotesize\ttfamily void Game (\begin{DoxyParamCaption}\item[{Render\+Window \&}]{window }\end{DoxyParamCaption})}
+
+
+
+Definition at line \mbox{\hyperlink{_game_8cpp_source_l00116}{116}} of file \mbox{\hyperlink{_game_8cpp_source}{Game.\+cpp}}.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{_game_8cpp_af1b534246ebb60258d63ab0fd9e97bfd_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=197pt]{_game_8cpp_af1b534246ebb60258d63ab0fd9e97bfd_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{_game_8cpp_a358776b7e836a92ce16c8069f61d7b72}\label{_game_8cpp_a358776b7e836a92ce16c8069f61d7b72}} 
+\index{Game.cpp@{Game.cpp}!Game\_Pause@{Game\_Pause}}
+\index{Game\_Pause@{Game\_Pause}!Game.cpp@{Game.cpp}}
+\doxysubsubsection{\texorpdfstring{Game\_Pause()}{Game\_Pause()}}
+{\footnotesize\ttfamily int Game\+\_\+\+Pause (\begin{DoxyParamCaption}\item[{Render\+Window \&}]{window,  }\item[{Event \&}]{event,  }\item[{bool \&}]{Is\+\_\+\+Game\+\_\+pause,  }\item[{Sprite \&}]{button\+\_\+restart,  }\item[{Sprite \&}]{button\+\_\+back,  }\item[{Sprite \&}]{pause\+\_\+button,  }\item[{Thread \&}]{thread\+\_\+\+Change\+Direction }\end{DoxyParamCaption})}
+
+
+
+Definition at line \mbox{\hyperlink{_game_8cpp_source_l00039}{39}} of file \mbox{\hyperlink{_game_8cpp_source}{Game.\+cpp}}.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=312pt]{_game_8cpp_a358776b7e836a92ce16c8069f61d7b72_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=309pt]{_game_8cpp_a358776b7e836a92ce16c8069f61d7b72_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{_game_8cpp_a2b814351b72b797a34133c3e238a4261}\label{_game_8cpp_a2b814351b72b797a34133c3e238a4261}} 
+\index{Game.cpp@{Game.cpp}!loose\_game@{loose\_game}}
+\index{loose\_game@{loose\_game}!Game.cpp@{Game.cpp}}
+\doxysubsubsection{\texorpdfstring{loose\_game()}{loose\_game()}}
+{\footnotesize\ttfamily int loose\+\_\+game (\begin{DoxyParamCaption}\item[{Render\+Window \&}]{window }\end{DoxyParamCaption})}
+
+
+
+Definition at line \mbox{\hyperlink{_game_8cpp_source_l00348}{348}} of file \mbox{\hyperlink{_game_8cpp_source}{Game.\+cpp}}.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=320pt]{_game_8cpp_a2b814351b72b797a34133c3e238a4261_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=223pt]{_game_8cpp_a2b814351b72b797a34133c3e238a4261_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{_game_8cpp_acdef7a1fd863a6d3770c1268cb06add3}\label{_game_8cpp_acdef7a1fd863a6d3770c1268cb06add3}} 
+\index{Game.cpp@{Game.cpp}!main@{main}}
+\index{main@{main}!Game.cpp@{Game.cpp}}
+\doxysubsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily void main (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line \mbox{\hyperlink{_game_8cpp_source_l00427}{427}} of file \mbox{\hyperlink{_game_8cpp_source}{Game.\+cpp}}.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{_game_8cpp_acdef7a1fd863a6d3770c1268cb06add3_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{_game_8cpp_ae11b06ec8a74f4410b7666e026676784}\label{_game_8cpp_ae11b06ec8a74f4410b7666e026676784}} 
+\index{Game.cpp@{Game.cpp}!Player\_Record\_Update@{Player\_Record\_Update}}
+\index{Player\_Record\_Update@{Player\_Record\_Update}!Game.cpp@{Game.cpp}}
+\doxysubsubsection{\texorpdfstring{Player\_Record\_Update()}{Player\_Record\_Update()}}
+{\footnotesize\ttfamily void Player\+\_\+\+Record\+\_\+\+Update (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line \mbox{\hyperlink{_game_8cpp_source_l00023}{23}} of file \mbox{\hyperlink{_game_8cpp_source}{Game.\+cpp}}.
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=270pt]{_game_8cpp_ae11b06ec8a74f4410b7666e026676784_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Variable Documentation}
+\mbox{\Hypertarget{_game_8cpp_a35cb308da6d1d5612150c57ae83be757}\label{_game_8cpp_a35cb308da6d1d5612150c57ae83be757}} 
+\index{Game.cpp@{Game.cpp}!Is\_Bot\_loose@{Is\_Bot\_loose}}
+\index{Is\_Bot\_loose@{Is\_Bot\_loose}!Game.cpp@{Game.cpp}}
+\doxysubsubsection{\texorpdfstring{Is\_Bot\_loose}{Is\_Bot\_loose}}
+{\footnotesize\ttfamily bool Is\+\_\+\+Bot\+\_\+loose = false}
+
+
+
+Definition at line \mbox{\hyperlink{_game_8cpp_source_l00015}{15}} of file \mbox{\hyperlink{_game_8cpp_source}{Game.\+cpp}}.
+
+\mbox{\Hypertarget{_game_8cpp_a35833e3bddad980cad8e544e5cdb4539}\label{_game_8cpp_a35833e3bddad980cad8e544e5cdb4539}} 
+\index{Game.cpp@{Game.cpp}!Is\_Game\_end@{Is\_Game\_end}}
+\index{Is\_Game\_end@{Is\_Game\_end}!Game.cpp@{Game.cpp}}
+\doxysubsubsection{\texorpdfstring{Is\_Game\_end}{Is\_Game\_end}}
+{\footnotesize\ttfamily bool Is\+\_\+\+Game\+\_\+end = false}
+
+
+
+Definition at line \mbox{\hyperlink{_game_8cpp_source_l00013}{13}} of file \mbox{\hyperlink{_game_8cpp_source}{Game.\+cpp}}.
+
+\mbox{\Hypertarget{_game_8cpp_a144e9dfc75532c34c7fe4c34b55e78fa}\label{_game_8cpp_a144e9dfc75532c34c7fe4c34b55e78fa}} 
+\index{Game.cpp@{Game.cpp}!Is\_Player\_loose@{Is\_Player\_loose}}
+\index{Is\_Player\_loose@{Is\_Player\_loose}!Game.cpp@{Game.cpp}}
+\doxysubsubsection{\texorpdfstring{Is\_Player\_loose}{Is\_Player\_loose}}
+{\footnotesize\ttfamily bool Is\+\_\+\+Player\+\_\+loose = false}
+
+
+
+Definition at line \mbox{\hyperlink{_game_8cpp_source_l00014}{14}} of file \mbox{\hyperlink{_game_8cpp_source}{Game.\+cpp}}.
+
+\mbox{\Hypertarget{_game_8cpp_ad01ec4e63e39de8a58f4d33ecf665b46}\label{_game_8cpp_ad01ec4e63e39de8a58f4d33ecf665b46}} 
+\index{Game.cpp@{Game.cpp}!Total\_Score\_Bot@{Total\_Score\_Bot}}
+\index{Total\_Score\_Bot@{Total\_Score\_Bot}!Game.cpp@{Game.cpp}}
+\doxysubsubsection{\texorpdfstring{Total\_Score\_Bot}{Total\_Score\_Bot}}
+{\footnotesize\ttfamily int Total\+\_\+\+Score\+\_\+\+Bot = 0}
+
+
+
+Definition at line \mbox{\hyperlink{_game_8cpp_source_l00017}{17}} of file \mbox{\hyperlink{_game_8cpp_source}{Game.\+cpp}}.
+
+\mbox{\Hypertarget{_game_8cpp_a771836c6788d8a0c09b5ce6da5f144b8}\label{_game_8cpp_a771836c6788d8a0c09b5ce6da5f144b8}} 
+\index{Game.cpp@{Game.cpp}!Total\_Score\_Player@{Total\_Score\_Player}}
+\index{Total\_Score\_Player@{Total\_Score\_Player}!Game.cpp@{Game.cpp}}
+\doxysubsubsection{\texorpdfstring{Total\_Score\_Player}{Total\_Score\_Player}}
+{\footnotesize\ttfamily int Total\+\_\+\+Score\+\_\+\+Player = 0}
+
+
+
+Definition at line \mbox{\hyperlink{_game_8cpp_source_l00016}{16}} of file \mbox{\hyperlink{_game_8cpp_source}{Game.\+cpp}}.
+

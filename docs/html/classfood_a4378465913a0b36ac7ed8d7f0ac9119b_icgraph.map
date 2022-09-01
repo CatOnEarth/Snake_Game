@@ -1,0 +1,7 @@
+<map id="food::delete_food" name="food::delete_food">
+<area shape="rect" id="node1" title=" " alt="" coords="416,46,536,73"/>
+<area shape="rect" id="node2" href="$class_bot___snake.html#a2116e2f11fa7bfeac34966df667714f1" title=" " alt="" coords="217,5,360,47"/>
+<area shape="rect" id="node5" href="$class_snake__player.html#a48b7cd11dfc50849cc426b5eedf7a770" title=" " alt="" coords="209,71,368,112"/>
+<area shape="rect" id="node3" href="$_game_8cpp.html#af1b534246ebb60258d63ab0fd9e97bfd" title=" " alt="" coords="104,46,161,73"/>
+<area shape="rect" id="node4" href="$_game_8cpp.html#acdef7a1fd863a6d3770c1268cb06add3" title=" " alt="" coords="5,46,56,73"/>
+</map>

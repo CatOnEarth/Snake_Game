@@ -1,0 +1,31 @@
+\hypertarget{_snake__player_8h_source}{}\doxysection{Snake\+\_\+player.\+h}
+\label{_snake__player_8h_source}\index{Sbake\_SFML/Snake\_player.h@{Sbake\_SFML/Snake\_player.h}}
+\mbox{\hyperlink{_snake__player_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\Hypertarget{_snake__player_8h_source_l00001}00001 \textcolor{preprocessor}{\#pragma once}}
+\DoxyCodeLine{\Hypertarget{_snake__player_8h_source_l00002}00002 \textcolor{preprocessor}{\#include "{}\mbox{\hyperlink{field_8h}{field.h}}"{}}}
+\DoxyCodeLine{\Hypertarget{_snake__player_8h_source_l00003}00003 \textcolor{preprocessor}{\#include "{}\mbox{\hyperlink{food_8h}{food.h}}"{}}}
+\DoxyCodeLine{\Hypertarget{_snake__player_8h_source_l00004}00004 }
+\DoxyCodeLine{\Hypertarget{_snake__player_8h_source_l00005}\mbox{\hyperlink{class_snake__player}{00005}} \textcolor{keyword}{class }\mbox{\hyperlink{class_snake__player}{Snake\_player}}}
+\DoxyCodeLine{\Hypertarget{_snake__player_8h_source_l00006}00006 \{}
+\DoxyCodeLine{\Hypertarget{_snake__player_8h_source_l00007}00007 \textcolor{keyword}{public}:}
+\DoxyCodeLine{\Hypertarget{_snake__player_8h_source_l00008}\mbox{\hyperlink{struct_snake__player_1_1cell}{00008}}     \textcolor{keyword}{struct }\mbox{\hyperlink{struct_snake__player_1_1cell}{cell}} \{}
+\DoxyCodeLine{\Hypertarget{_snake__player_8h_source_l00009}\mbox{\hyperlink{struct_snake__player_1_1cell_a5874d54b4998ba0306d33c2426aa8fa2}{00009}}         \textcolor{keywordtype}{int} \mbox{\hyperlink{struct_snake__player_1_1cell_a5874d54b4998ba0306d33c2426aa8fa2}{coord\_x}} = -\/1;}
+\DoxyCodeLine{\Hypertarget{_snake__player_8h_source_l00010}\mbox{\hyperlink{struct_snake__player_1_1cell_a9045a36615408ccf35554a875fe03f32}{00010}}         \textcolor{keywordtype}{int} \mbox{\hyperlink{struct_snake__player_1_1cell_a9045a36615408ccf35554a875fe03f32}{coord\_y}} = -\/1;}
+\DoxyCodeLine{\Hypertarget{_snake__player_8h_source_l00011}00011     \};}
+\DoxyCodeLine{\Hypertarget{_snake__player_8h_source_l00012}00012 }
+\DoxyCodeLine{\Hypertarget{_snake__player_8h_source_l00013}\mbox{\hyperlink{class_snake__player_ae87aa46f84d0298de7310c6f98c7bb3d}{00013}}     \textcolor{keywordtype}{int} \mbox{\hyperlink{class_snake__player_ae87aa46f84d0298de7310c6f98c7bb3d}{length\_snake}} = 3;}
+\DoxyCodeLine{\Hypertarget{_snake__player_8h_source_l00014}\mbox{\hyperlink{class_snake__player_a8d19f8b5b967a664582fc71c5d7ed365}{00014}}     \textcolor{keywordtype}{int} \mbox{\hyperlink{class_snake__player_a8d19f8b5b967a664582fc71c5d7ed365}{now\_direction}} = 1;}
+\DoxyCodeLine{\Hypertarget{_snake__player_8h_source_l00015}\mbox{\hyperlink{class_snake__player_aa7f708969a4642bb4794085bb53dc46a}{00015}}     \textcolor{keywordtype}{bool} \mbox{\hyperlink{class_snake__player_aa7f708969a4642bb4794085bb53dc46a}{is\_thread\_start}};}
+\DoxyCodeLine{\Hypertarget{_snake__player_8h_source_l00016}\mbox{\hyperlink{class_snake__player_a0aaff708fab8a569da1e62bdf7bd1d9f}{00016}}     \mbox{\hyperlink{struct_snake__player_1_1cell}{cell}} \mbox{\hyperlink{class_snake__player_a0aaff708fab8a569da1e62bdf7bd1d9f}{prev\_position\_tail}};}
+\DoxyCodeLine{\Hypertarget{_snake__player_8h_source_l00017}\mbox{\hyperlink{class_snake__player_a1adb597f48afed3a6a2611f6851c1778}{00017}}     \mbox{\hyperlink{struct_snake__player_1_1cell}{cell}} \mbox{\hyperlink{class_snake__player_a1adb597f48afed3a6a2611f6851c1778}{num\_cell\_snake}}[900]; \textcolor{comment}{// координаты €чеек змейки}}
+\DoxyCodeLine{\Hypertarget{_snake__player_8h_source_l00018}00018 }
+\DoxyCodeLine{\Hypertarget{_snake__player_8h_source_l00019}00019     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_snake__player_ae435c5ef632d21463723102549780c4d}{change\_direction\_player\_snake}}(\textcolor{keywordtype}{void});}
+\DoxyCodeLine{\Hypertarget{_snake__player_8h_source_l00020}00020     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_snake__player_a0f74c5eecaaa1dfbf4886451c970ef00}{move\_player\_snake}}(sf::RenderWindow\& window, \mbox{\hyperlink{classfield}{field}} \&\mbox{\hyperlink{classfield}{field}}, \textcolor{keywordtype}{bool} \&\mbox{\hyperlink{_game_8cpp_a144e9dfc75532c34c7fe4c34b55e78fa}{Is\_Player\_loose}});}
+\DoxyCodeLine{\Hypertarget{_snake__player_8h_source_l00021}00021     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_snake__player_a987127daf3f98fd00891176030903bcc}{draw\_player\_snake}}(sf::RenderWindow \&window, \mbox{\hyperlink{classfield}{field}} \&\mbox{\hyperlink{classfield}{field}});}
+\DoxyCodeLine{\Hypertarget{_snake__player_8h_source_l00022}00022     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_snake__player_a347268d7cfee0cff219fa62ecbdabe1a}{draw\_eyes\_player\_snake}}(sf::RenderWindow\& window, \mbox{\hyperlink{classfield}{field}}\& \mbox{\hyperlink{classfield}{field}});}
+\DoxyCodeLine{\Hypertarget{_snake__player_8h_source_l00023}00023     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_snake__player_a48b7cd11dfc50849cc426b5eedf7a770}{eat\_food\_player\_snake}}(\mbox{\hyperlink{classfood}{food}} \&\mbox{\hyperlink{classfood}{food}}, \mbox{\hyperlink{classfield}{field}}\& \mbox{\hyperlink{classfield}{field}});}
+\DoxyCodeLine{\Hypertarget{_snake__player_8h_source_l00024}00024     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_snake__player_a4f70be268fdc90ad617e2e83539935b0}{grow\_player\_snake}}(\mbox{\hyperlink{classfield}{field}}\& \mbox{\hyperlink{classfield}{field}});}
+\DoxyCodeLine{\Hypertarget{_snake__player_8h_source_l00025}00025 \};}
+
+\end{DoxyCode}

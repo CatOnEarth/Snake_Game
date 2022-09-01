@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов\Style_Character">
+      <UniqueIdentifier>{74eb3513-185a-4784-a9ff-1e37438fbedd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы ресурсов\Buttons">
+      <UniqueIdentifier>{6f71dd14-052a-45e6-bf92-52050266dfa2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы ресурсов\Images">
+      <UniqueIdentifier>{d1bb8328-1af8-48e5-9d07-c841678e7266}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы ресурсов\Image_static">
+      <UniqueIdentifier>{6ef31f61-280a-48ca-8e9e-b2badda5f360}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Snake_player.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="field.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="food.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Bot_Snake.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Snake_player.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="field.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="food.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Bot_Snake.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="FormSFML.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="..\Debug\arial.ttf">
+      <Filter>Файлы ресурсов\Style_Character</Filter>
+    </Font>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\Debug\layouts\Pause_button.png">
+      <Filter>Файлы ресурсов\Buttons</Filter>
+    </Image>
+    <Image Include="..\Debug\layouts\Play_button.png">
+      <Filter>Файлы ресурсов\Buttons</Filter>
+    </Image>
+    <Image Include="..\Debug\layouts\button_back.png">
+      <Filter>Файлы ресурсов\Buttons</Filter>
+    </Image>
+    <Image Include="..\Debug\layouts\button_restart.png">
+      <Filter>Файлы ресурсов\Buttons</Filter>
+    </Image>
+    <Image Include="..\Debug\layouts\snake_start_win_2.png">
+      <Filter>Файлы ресурсов\Images</Filter>
+    </Image>
+    <Image Include="..\Debug\layouts\snake_picture_left.png">
+      <Filter>Файлы ресурсов\Image_static</Filter>
+    </Image>
+    <Image Include="..\Debug\layouts\snake_picture_right.png">
+      <Filter>Файлы ресурсов\Image_static</Filter>
+    </Image>
+    <Image Include="layouts\food_apple.png">
+      <Filter>Файлы ресурсов\Image_static</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
