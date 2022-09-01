@@ -2,6 +2,10 @@
 Snake game player vs bot on C++ + SFML
 
 <p>
+Documentation(Doxywizard):  https://catonearth.github.io/Snake_Game/html
+<p>
+
+<p>
     Screenshot Welcome window:  
 <p>
 <p>
